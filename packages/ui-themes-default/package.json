@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0",
