@@ -1,0 +1,26 @@
+@import '@marcobiedermann/ui-themes-default';
+
+:root {
+  --body-font-family: var(--base-font-family);
+  --body-font-size: var(--base-font-size);
+  --body-font-weight: var(--base-font-weight);
+  --body-line-height: var(--base-line-height);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  margin: 0;
+  min-height: 100vh;
+}
