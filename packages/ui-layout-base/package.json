@@ -1,0 +1,12 @@
+{
+  "name": "@marcobiedermann/ui-layout-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/assets/css/layout/base.css",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
