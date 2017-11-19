@@ -2,9 +2,8 @@
   "name": "@marcobiedermann/ui-themes-default",
   "version": "1.0.0",
   "description": "",
-  "main": "source/assets/css/themes/default.css",
   "scripts": {
-    "lint:css": "stylelint ./source/assets/css**/*.css",
+    "lint:css": "stylelint **/*.css",
     "lint": "npm run lint:css",
     "test": "npm run lint"
   },
