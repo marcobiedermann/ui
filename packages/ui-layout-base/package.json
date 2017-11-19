@@ -8,10 +8,7 @@
     "lint": "npm run lint:css",
     "test": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marcobiedermann/ui.git"
-  },
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-base",
   "keywords": [],
   "author": "",
   "license": "MIT",
