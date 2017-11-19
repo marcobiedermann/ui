@@ -8,9 +8,16 @@
     "lint": "npm run lint:css",
     "test": "npm run lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcobiedermann/ui.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
