@@ -9,7 +9,13 @@
     "test": "npm run lint"
   },
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-image",
-  "keywords": [],
+  "keywords": [
+    "css",
+    "design-system",
+    "image",
+    "style",
+    "ui"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {

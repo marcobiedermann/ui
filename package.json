@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/marcobiedermann/ui.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "design-system",
+    "style",
+    "ui"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
