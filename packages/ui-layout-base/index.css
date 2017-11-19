@@ -1,4 +1,4 @@
-@import '@marcobiedermann/ui-themes-default.css';
+@import '@marcobiedermann/ui-themes-default';
 
 :root {
   --body-font-family: var(--base-font-family);

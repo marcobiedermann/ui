@@ -25,7 +25,7 @@ npm install @marcobiedermann/ui-themes-default
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-themes-default.css';
+@import '@marcobiedermann/ui-themes-default';
 ```
 
 ## License

@@ -25,7 +25,7 @@ npm install @marcobiedermann/ui-modules-image
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-image.css';
+@import '@marcobiedermann/ui-modules-image';
 ```
 
 ## License
