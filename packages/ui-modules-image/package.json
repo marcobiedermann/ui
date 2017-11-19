@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.css",
   "scripts": {
+    "build": "node ../../scripts/build.js",
     "lint:css": "stylelint **/*.css",
     "lint": "npm run lint:css",
     "test": "npm run lint"
