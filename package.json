@@ -6,7 +6,8 @@
   "scripts": {
     "lint:css": "stylelint ./packages/**/*.css",
     "lint": "npm run lint:css",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "publish": "lerna publish --skip-git"
   },
   "repository": {
     "type": "git",
