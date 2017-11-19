@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-npm install @marcobiedermann/ui-themes-default
+npm install @marcobiedermann/ui-layout-base
 ```
 
 ## License
