@@ -26,7 +26,7 @@ npm install @marcobiedermann/ui-layout-base
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-layout-base';
+@import '@marcobiedermann/ui-layout-base/index.css';
 ```
 
 ## License
