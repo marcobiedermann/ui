@@ -8,16 +8,25 @@
 
 * [Requirements](#requirements)
 * [Installation](#installation)
+* [Usage](#usage)
 * [License](#license)
 
 ## Requirements
 
 * [Node.js](https://nodejs.org)
+* [postcss](https://github.com/postcss/postcss)
+* [postcss-import](https://github.com/postcss/postcss-import)
 
 ## Installation
 
 ```sh
 npm install @marcobiedermann/ui-layout-base
+```
+
+## Usage
+
+```css
+@import '@marcobiedermann/ui-layout-base.css';
 ```
 
 ## License
