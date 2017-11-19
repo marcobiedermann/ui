@@ -2,6 +2,7 @@
   "name": "@marcobiedermann/ui-themes-default",
   "version": "1.0.0",
   "description": "",
+  "main": "index.css",
   "scripts": {
     "lint:css": "stylelint **/*.css",
     "lint": "npm run lint:css",
