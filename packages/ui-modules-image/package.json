@@ -1,0 +1,29 @@
+{
+  "name": "@marcobiedermann/ui-modules-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/assets/css/modules/image.css",
+  "scripts": {
+    "lint:css": "stylelint ./source/assets/css**/*.css",
+    "lint": "npm run lint:css",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcobiedermann/ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0"
+  }
+}
