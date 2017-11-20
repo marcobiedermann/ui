@@ -2,7 +2,7 @@
   "name": "@marcobiedermann/ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.css",
+  "style": "index.css",
   "scripts": {
     "lint:css": "stylelint **/*.css",
     "lint": "npm run lint:css",
