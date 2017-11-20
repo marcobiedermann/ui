@@ -1,0 +1,14 @@
+@import '@marcobiedermann/ui-themes-default/index.css';
+
+:root {
+  --footer-background-color: #222;
+  --footer-color: #fff;
+  --footer-padding-vertical: 1em;
+}
+
+.footer {
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
+  padding-bottom: var(--footer-padding-vertical);
+  padding-top: var(--footer-padding-vertical);
+}
