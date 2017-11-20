@@ -1,0 +1,14 @@
+@import '@marcobiedermann/ui-themes-default/index.css';
+
+:root {
+  --header-background-color: #222;
+  --header-color: #fff;
+  --header-padding-vertical: 1em;
+}
+
+.header {
+  background-color: var(--header-background-color);
+  color: var(--header-color);
+  padding-bottom: var(--header-padding-vertical);
+  padding-top: var(--header-padding-vertical);
+}
