@@ -6,6 +6,7 @@
   "scripts": {
     "lint:css": "stylelint **/*.css",
     "lint": "npm run lint:css",
+    "prepublish": "npm run build",
     "test": "npm run lint"
   },
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui",
