@@ -1,0 +1,11 @@
+@import '@marcobiedermann/ui-themes-default/index.css';
+
+:root {
+  --anchor-color: var(--color-primary);
+  --anchor-text-decoration: none;
+}
+
+a {
+  color: var(--anchor-color);
+  text-decoration: var(--anchor-text-decoration);
+}
