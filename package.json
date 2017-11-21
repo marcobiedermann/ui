@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "lint:css": "stylelint ./packages/**/*.css",
     "lint": "npm run lint:css",
     "test": "npm run lint",
