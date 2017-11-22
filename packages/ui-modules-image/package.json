@@ -5,7 +5,7 @@
   "style": "index.css",
   "scripts": {
     "build": "node ../../scripts/build.js",
-    "lint:css": "stylelint $PWD**/*.css",
+    "lint:css": "stylelint *.css",
     "lint": "npm run lint:css",
     "prepublish": "npm run build",
     "test": "npm run lint"
