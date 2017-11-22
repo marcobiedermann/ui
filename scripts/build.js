@@ -17,12 +17,12 @@ const writeFileAsync = promisify(fs.writeFile);
 
   const css = await readFileAsync(`${process.cwd()}/index.css`, 'utf8');
   const result = await postcss([
+    postcssImport(),
     postcssCssnext({
       features: {
         rem: false,
       },
     }),
-    postcssImport(),
     cssnano({
       autoprefixer: false,
     }),
