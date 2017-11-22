@@ -30,6 +30,6 @@ npm install @marcobiedermann/ui-layout-footer
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License](../../LICENSE)
 
 Copyright (c) 2017 Marco Biedermann
