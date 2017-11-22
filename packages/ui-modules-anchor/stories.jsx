@@ -7,5 +7,5 @@ import './index.css';
 
 storiesOf('Anchor', module)
   .addWithStaticMarkup('default', () => (
-    <a href="#">Anchor</a>
+    <a href="/ui">Anchor</a>
   ));

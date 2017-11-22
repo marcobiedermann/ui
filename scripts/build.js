@@ -1,9 +1,11 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const { promisify } = require('util');
 const fs = require('fs');
 const postcss = require('postcss');
 const postcssCssnext = require('postcss-cssnext');
 const postcssImport = require('postcss-import');
 const cssnano = require('cssnano');
+/* eslint-enable */
 
 const readFileAsync = promisify(fs.readFile);
 const writeFileAsync = promisify(fs.writeFile);
