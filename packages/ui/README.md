@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui)
 [![dependencies Status](https://david-dm.org/marcobiedermann/ui/status.svg?path=packages/ui)](https://david-dm.org/marcobiedermann/ui?path=packages/ui)
-[![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg?path=packages/ui)](https://david-dm.org/marcobiedermann/ui?path=packages/ui&type=dev)
 
 ## Table of contents
 

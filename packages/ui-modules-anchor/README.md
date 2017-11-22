@@ -1,7 +1,6 @@
 # @marcobiedermann/ui-modules-anchor
 
 [![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-anchor.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-anchor)
-[![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg?path=packages/ui-modules-anchor)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-modules-anchor&type=dev)
 
 ## Table of contents
 

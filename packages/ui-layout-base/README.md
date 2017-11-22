@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-layout-base.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-layout-base)
 [![dependencies Status](https://david-dm.org/marcobiedermann/ui/status.svg?path=packages/ui-layout-base)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-layout-base)
-[![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg?path=packages/ui-layout-base)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-layout-base&type=dev)
 
 ## Table of contents
 

@@ -1,7 +1,6 @@
 # @marcobiedermann/ui-themes-default
 
 [![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-themes-default.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-themes-default)
-[![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg?path=packages/ui-themes-default)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-themes-default&type=dev)
 
 ## Table of contents
 

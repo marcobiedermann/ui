@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-layout-footer.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-layout-footer)
 [![dependencies Status](https://david-dm.org/marcobiedermann/ui/status.svg?path=packages/ui-layout-footer)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-layout-footer)
-[![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg?path=packages/ui-layout-footer)](https://david-dm.org/marcobiedermann/ui?path=packages/ui-layout-footer&type=dev)
 
 ## Table of contents
 

@@ -5,7 +5,7 @@
   "style": "index.css",
   "scripts": {
     "build": "node ../../scripts/build.js",
-    "lint:css": "stylelint **/*.css",
+    "lint:css": "stylelint $PWD**/*.css",
     "lint": "npm run lint:css",
     "prepublish": "npm run build",
     "test": "npm run lint"
@@ -25,10 +25,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "stylelint": "^8.2.0",
-    "stylelint-config-standard": "^17.0.0",
-    "stylelint-order": "^0.7.0"
   }
 }
