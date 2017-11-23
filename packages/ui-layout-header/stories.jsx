@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 
 import './index.css';
 
-storiesOf('Header', module)
+storiesOf('Header/1.0.0', module)
   .addWithStaticMarkup('default', () => (
     <header className="header">
       Header

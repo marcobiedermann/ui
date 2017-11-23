@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 
 import './index.css';
 
-storiesOf('Footer', module)
+storiesOf('Footer/1.0.0', module)
   .addWithStaticMarkup('default', () => (
     <footer className="footer">
       Footer

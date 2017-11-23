@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 
 import './index.css';
 
-storiesOf('Anchor', module)
+storiesOf('Anchor/1.0.0', module)
   .addWithStaticMarkup('default', () => (
     <a href="/ui">Anchor</a>
   ));

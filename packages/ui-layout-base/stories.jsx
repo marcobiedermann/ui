@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 
 import './index.css';
 
-storiesOf('Body', module)
+storiesOf('Body/1.0.0', module)
   .addWithStaticMarkup('default', () => (
     <div>Body</div>
   ));
