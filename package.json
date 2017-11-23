@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/marcobiedermann/ui#readme",
   "devDependencies": {
+    "@storybook/addon-knobs": "^3.2.16",
     "@storybook/addon-options": "^3.2.16",
     "@storybook/react": "^3.2.16",
     "cssnano": "^3.10.0",
