@@ -8,10 +8,11 @@
     "lint:css": "stylelint ./packages/**/*.css",
     "lint:js": "eslint **/*.{js,jsx}",
     "lint": "npm run lint:css && npm run lint:js",
+    "postinstall": "npm run bootstrap",
     "publish": "lerna publish --skip-git",
-    "test": "npm run lint",
+    "storybook:build": "build-storybook -c .storybook -o docs",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "storybook:build": "build-storybook -c .storybook -o docs"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
