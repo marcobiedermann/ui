@@ -8,7 +8,7 @@
     "lint:css": "stylelint *.css",
     "lint:js": "eslint **/*.{js,jsx}",
     "lint": "npm run lint:css && npm run lint:js",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "npm run lint"
   },
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-image",
