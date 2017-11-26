@@ -1,6 +1,6 @@
-# @marcobiedermann/ui-modules-image
+# @marcobiedermann/ui-modules-canvas
 
-[![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-image.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-image)
+[![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-canvas.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-canvas)
 
 ## Table of contents
 
@@ -18,13 +18,13 @@
 ## Installation
 
 ```sh
-npm install @marcobiedermann/ui-modules-image
+npm install @marcobiedermann/ui-modules-canvas
 ```
 
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-image/index.css';
+@import '@marcobiedermann/ui-modules-canvas/index.css';
 ```
 
 ## License

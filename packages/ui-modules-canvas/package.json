@@ -1,5 +1,5 @@
 {
-  "name": "@marcobiedermann/ui-modules-image",
+  "name": "@marcobiedermann/ui-modules-canvas",
   "version": "1.0.0",
   "description": "",
   "style": "index.css",
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run build",
     "test": "npm run lint"
   },
-  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-image",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-canvas",
   "keywords": [
     "css",
     "design-system",
