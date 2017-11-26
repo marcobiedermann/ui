@@ -1,0 +1,30 @@
+{
+  "name": "@marcobiedermann/ui-modules-image",
+  "version": "1.0.0",
+  "description": "",
+  "style": "index.css",
+  "scripts": {
+    "build": "node ../../scripts/build.js",
+    "lint:css": "stylelint *.css",
+    "lint:js": "eslint **/*.{js,jsx}",
+    "lint": "npm run lint:css && npm run lint:js",
+    "prepublishOnly": "npm run build",
+    "test": "npm run lint"
+  },
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-image",
+  "keywords": [
+    "css",
+    "design-system",
+    "image",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
