@@ -11,7 +11,7 @@ storiesOf('Footer/1.0.0', module)
   .addDecorator(checkA11y)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <footer className="footer">
+    <footer className="footer" role="contentinfo">
       {text('Content', 'Footer')}
     </footer>
   ));

@@ -11,7 +11,7 @@ storiesOf('Header/1.0.0', module)
   .addDecorator(checkA11y)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <header className="header">
+    <header className="header" role="banner">
       {text('Content', 'Header')}
     </header>
   ));
