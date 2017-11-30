@@ -10,9 +10,10 @@ script:
   - npm test
   - npm run build
 deploy:
-  provider: pages
+  provider: releases
+  file_glob: true
+  file: /*
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:
-    branch: master
-  target_branch: master
+    tags: false
