@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "build": "build-storybook -c .storybook -o docs",
     "lint:css": "stylelint ./packages/**/*.css",
     "lint:js": "eslint **/*.{js,jsx}",
     "lint": "npm run lint:css && npm run lint:js",
     "postinstall": "npm run bootstrap",
     "publish": "lerna publish",
-    "storybook:build": "build-storybook -c .storybook -o docs",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "npm run lint"
   },

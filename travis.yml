@@ -1,7 +1,18 @@
 language: node_js
 node_js:
   - stable
-script: npm test
 cache:
   directories:
     - node_modules
+before_install:
+  - npm install -g @storybook/cli
+script:
+  - npm test
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  target_branch: master
