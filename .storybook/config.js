@@ -1,6 +1,7 @@
 import { setOptions } from '@storybook/addon-options';
-import { configure, setAddon } from '@storybook/react';
+import { addDecorator, configure, setAddon } from '@storybook/react';
 import staticMarkup from 'react-storybook-addon-static-markup';
+import { checkA11y } from 'storybook-addon-a11y';
 
 function loadStories() {
   const contexts = [
@@ -14,6 +15,7 @@ function loadStories() {
   });
 }
 
+addDecorator(checkA11y);
 setAddon(staticMarkup);
 setOptions({
   name: '@marcobiedermann/ui',
