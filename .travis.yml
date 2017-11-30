@@ -14,6 +14,6 @@ deploy:
   file_glob: true
   file: /*
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  api_key: $GITHUB_TOKEN
   on:
     tags: false
