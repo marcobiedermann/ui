@@ -1,13 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
 /* eslint-enable */
 
 import './index.css';
 
 storiesOf('List/1.0.0', module)
-  .addDecorator(checkA11y)
   .addWithStaticMarkup('definition list', () => (
     <dl>
       <dt>Coffee</dt>
