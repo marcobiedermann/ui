@@ -18,6 +18,5 @@ setAddon(staticMarkup);
 setOptions({
   name: '@marcobiedermann/ui',
   url: 'https://github.com/marcobiedermann/ui',
-  downPanelInRight: true,
 });
 configure(loadStories, module);
