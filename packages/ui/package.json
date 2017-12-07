@@ -22,9 +22,6 @@
   "bugs": {
     "url": "https://github.com/marcobiedermann/ui/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@marcobiedermann/ui-layout-base": "^1.0.0",
     "@marcobiedermann/ui-layout-footer": "^1.0.0",
