@@ -25,7 +25,7 @@ npm install @marcobiedermann/ui-layout-header
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-layout-header/index.css';
+@import '@marcobiedermann/ui-layout-header';
 ```
 
 ## License

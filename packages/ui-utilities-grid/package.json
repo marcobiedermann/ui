@@ -2,7 +2,7 @@
   "name": "@marcobiedermann/ui-utilities-grid",
   "version": "1.0.0",
   "description": "",
-  "style": "index.css",
+  "style": "style.css",
   "scripts": {
     "build": "node ../../scripts/build.js",
     "lint:css": "stylelint *.css",

@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable */
 
-import './index.css';
+import './style.css';
 
 storiesOf('Footer/1.0.0', module)
   .addDecorator(withKnobs)

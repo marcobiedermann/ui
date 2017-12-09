@@ -1,4 +1,4 @@
-@import '@marcobiedermann/ui-themes-default/index.css';
+@import '@marcobiedermann/ui-themes-default';
 
 :root {
   --header-background-color: #222;

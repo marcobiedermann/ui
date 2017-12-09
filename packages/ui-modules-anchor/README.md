@@ -24,7 +24,7 @@ npm install @marcobiedermann/ui-modules-anchor
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-anchor/index.css';
+@import '@marcobiedermann/ui-modules-anchor';
 ```
 
 ## License

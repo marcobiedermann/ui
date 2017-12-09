@@ -24,7 +24,7 @@ npm install @marcobiedermann/ui-modules-list
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-list/index.css';
+@import '@marcobiedermann/ui-modules-list';
 ```
 
 ## License
