@@ -9,7 +9,7 @@ import './index.css';
 storiesOf('Header/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <header className="header">
+    <header className="header" role="banner">
       {text('Content', 'Header')}
     </header>
   ));
