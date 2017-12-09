@@ -1,4 +1,4 @@
-@import '@marcobiedermann/ui-themes-default/index.css';
+@import '@marcobiedermann/ui-themes-default';
 
 :root {
   --grid-max-width: 64rem;

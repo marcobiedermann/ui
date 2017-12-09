@@ -24,7 +24,7 @@ npm install @marcobiedermann/ui-utilities-grid
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-utilities-grid/index.css';
+@import '@marcobiedermann/ui-utilities-grid';
 ```
 
 ## License

@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number } from '@storybook/addon-knobs';
 /* eslint-enable */
 
-import './index.css';
+import './style.css';
 
 storiesOf('Canvas/1.0.0', module)
   .addDecorator(withKnobs)

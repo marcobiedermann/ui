@@ -24,7 +24,7 @@ npm install @marcobiedermann/ui-modules-canvas
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-canvas/index.css';
+@import '@marcobiedermann/ui-modules-canvas';
 ```
 
 ## License

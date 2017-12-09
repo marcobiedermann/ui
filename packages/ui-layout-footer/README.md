@@ -25,7 +25,7 @@ npm install @marcobiedermann/ui-layout-footer
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-layout-footer/index.css';
+@import '@marcobiedermann/ui-layout-footer';
 ```
 
 ## License
