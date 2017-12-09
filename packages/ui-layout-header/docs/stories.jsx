@@ -1,13 +1,15 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, number } from '@storybook/addon-knobs';
+import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable */
 
-import './style.css';
+import '../style.css';
 
-storiesOf('Canvas/1.0.0', module)
+storiesOf('Header/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <canvas width={number('width', '800')} height={number('height', '600')} />
+    <header className="header" role="banner">
+      {text('Content', 'Header')}
+    </header>
   ));
