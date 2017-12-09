@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 /* eslint-enable */
 
-import './style.css';
+import '../style.css';
 
 storiesOf('List/1.0.0', module)
   .addWithStaticMarkup('definition list', () => (

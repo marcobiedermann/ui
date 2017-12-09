@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable */
 
-import './style.css';
+import '../style.css';
 
 storiesOf('Grid/1.0.0', module)
   .addDecorator(withKnobs)

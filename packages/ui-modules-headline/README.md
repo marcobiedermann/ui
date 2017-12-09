@@ -24,7 +24,7 @@ npm install @marcobiedermann/ui-modules-headline
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-headline/index.css';
+@import '@marcobiedermann/ui-modules-headline';
 ```
 
 ## License
