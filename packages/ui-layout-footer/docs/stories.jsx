@@ -9,7 +9,7 @@ import Footer from '../index';
 storiesOf('Footer/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-      <Footer>
-        {text('Content', 'Footer')}
-      </Footer>
-    ));
+    <Footer>
+      {text('Content', 'Footer')}
+    </Footer>
+  ));
