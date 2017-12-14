@@ -4,12 +4,12 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable */
 
-import '../style.css';
+import Header from '../index';
 
 storiesOf('Header/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <header className="header" role="banner">
+    <Header>
       {text('Content', 'Header')}
-    </header>
+    </Header>
   ));
