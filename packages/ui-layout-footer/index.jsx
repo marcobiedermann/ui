@@ -1,7 +1,5 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
-/* eslint-enable */
 
 import './style.css';
 
