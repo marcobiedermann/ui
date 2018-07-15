@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import './style.css';
 
-const Header = props => (
+const Header = ({ children }) => (
   <header className="header" role="banner">
-    {props.children}
+    {children}
   </header>
 );
 

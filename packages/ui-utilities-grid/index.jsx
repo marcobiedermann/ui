@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import './style.css';
 
-const Grid = props => (
+const Grid = ({ children }) => (
   <div className="grid">
-    {props.children}
+    {children}
   </div>
 );
 
