@@ -4,16 +4,5 @@ node_js:
 cache:
   directories:
     - node_modules
-before_install:
-  - npm install -g @storybook/cli
 script:
   - npm test
-  - npm run build
-deploy:
-  provider: releases
-  file_glob: true
-  file: /*
-  skip_cleanup: true
-  api_key: $GITHUB_TOKEN
-  on:
-    tags: false
