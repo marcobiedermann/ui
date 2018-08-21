@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
-import './style.css';
+import React from 'react';
+import styles from './style.css';
 
 const Header = ({ children }) => (
-  <header className="header" role="banner">
+  <header className={styles.header} role="banner">
     {children}
   </header>
 );

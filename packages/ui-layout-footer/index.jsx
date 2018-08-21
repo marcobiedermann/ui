@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
-import './style.css';
+import React from 'react';
+import styles from './style.css';
 
 const Footer = ({ children }) => (
-  <footer className="footer" role="contentinfo">
+  <footer className={styles.footer} role="contentinfo">
     {children}
   </footer>
 );

@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
-import './style.css';
+import React from 'react';
+import styles from './style.css';
 
 const Grid = ({ children }) => (
-  <div className="grid">
+  <div className={styles.grid}>
     {children}
   </div>
 );
