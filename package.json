@@ -12,7 +12,7 @@
     "postinstall": "npm run bootstrap",
     "publish": "lerna publish",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "test": "npm run lint"
+    "test": "npm run lint && jest"
   },
   "repository": {
     "type": "git",
@@ -35,11 +35,16 @@
     "@storybook/addon-options": "^3.4.8",
     "@storybook/react": "^3.4.8",
     "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.5.0",
     "lerna": "^2.11.0",
     "postcss": "^6.0.23",
     "postcss-cssnext": "^3.1.0",
@@ -47,9 +52,16 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-storybook-addon-static-markup": "^0.1.0",
+    "react-test-renderer": "^16.4.2",
     "storybook-addon-a11y": "^3.1.9",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^0.8.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
