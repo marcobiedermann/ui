@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media component renders left correctly 1`] = `
+<div
+  className="media"
+>
+  <div
+    className="media__object media__object--left"
+  >
+    Media Object
+  </div>
+  <div
+    className="media__body"
+  >
+    Media Body
+  </div>
+</div>
+`;
+
+exports[`Media component renders right correctly 1`] = `
+<div
+  className="media"
+>
+  <div
+    className="media__object media__object--right"
+  >
+    Media Object
+  </div>
+  <div
+    className="media__body"
+  >
+    Media Body
+  </div>
+</div>
+`;

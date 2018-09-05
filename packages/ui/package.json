@@ -19,6 +19,7 @@
     "@marcobiedermann/ui-layout-base": "^1.0.0",
     "@marcobiedermann/ui-layout-footer": "^1.0.0",
     "@marcobiedermann/ui-layout-header": "^1.0.0",
-    "@marcobiedermann/ui-modules-image": "^1.0.0"
+    "@marcobiedermann/ui-modules-image": "^1.0.0",
+    "@marcobiedermann/ui-modules-media": "^1.0.0"
   }
 }

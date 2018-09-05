@@ -1,0 +1,19 @@
+{
+  "name": "@marcobiedermann/ui-modules-media",
+  "version": "1.0.0",
+  "description": "",
+  "style": "style.css",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-list",
+  "keywords": [
+    "css",
+    "design-system",
+    "media",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  }
+}
