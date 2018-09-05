@@ -9,7 +9,11 @@ const Grid = ({ children }) => (
 );
 
 Grid.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
+};
+
+Grid.defaultProps = {
+  children: null,
 };
 
 export default Grid;

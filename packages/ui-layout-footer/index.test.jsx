@@ -3,10 +3,12 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Footer from '.';
 
-it('renders correctly', () => {
-  const tree = renderer
-    .create(<Footer />)
-    .toJSON();
+describe('Footer component', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(<Footer />)
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
+    expect(tree).toMatchSnapshot();
+  });
 });
