@@ -1,5 +1,7 @@
 :root {
-  --grid-max-width: 64rem;
+  --grid-columns: 12;
+  --grid-gutter: 3%;
+  --grid-max-width: 1440px;
   --grid-width: 90%;
 }
 
@@ -8,4 +10,62 @@
   margin-right: auto;
   max-width: var(--grid-max-width);
   width: var(--grid-width);
+}
+
+.grid__row {
+  display: flex;
+  margin: calc(var(--grid-gutter) / -2);
+}
+
+.grid__column {
+  flex-grow: 1;
+  margin: calc(var(--grid-gutter) / 2);
+}
+
+.grid__column--1 {
+  width: calc(100% / var(--grid-columns) * 1 - var(--grid-gutter));
+}
+
+.grid__column--2 {
+  width: calc(100% / var(--grid-columns) * 2 - var(--grid-gutter));
+}
+
+.grid__column--3 {
+  width: calc(100% / var(--grid-columns) * 3 - var(--grid-gutter));
+}
+
+.grid__column--4 {
+  width: calc(100% / var(--grid-columns) * 4 - var(--grid-gutter));
+}
+
+.grid__column--5 {
+  width: calc(100% / var(--grid-columns) * 5 - var(--grid-gutter));
+}
+
+.grid__column--6 {
+  width: calc(100% / var(--grid-columns) * 6 - var(--grid-gutter));
+}
+
+.grid__column--7 {
+  width: calc(100% / var(--grid-columns) * 7 - var(--grid-gutter));
+}
+
+.grid__column--8 {
+  width: calc(100% / var(--grid-columns) * 8 - var(--grid-gutter));
+}
+
+.grid__column--9 {
+  width: calc(100% / var(--grid-columns) * 9 - var(--grid-gutter));
+}
+
+.grid__column--10 {
+  width: calc(100% / var(--grid-columns) * 10 - var(--grid-gutter));
+}
+
+.grid__column--11 {
+  width: calc(100% / var(--grid-columns) * 11 - var(--grid-gutter));
+}
+
+.grid__column--12 {
+  width: calc(100% / var(--grid-columns) * 12 - var(--grid-gutter));
 }

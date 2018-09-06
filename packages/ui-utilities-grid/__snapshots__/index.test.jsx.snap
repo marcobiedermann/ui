@@ -1,5 +1,280 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Grid component renders column span 1 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--1"
+    >
+      Column
+       
+      1
+    </div>
+    <div
+      className="grid__column grid__column--11"
+    >
+      Column
+       
+      11
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 2 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--2"
+    >
+      Column
+       
+      2
+    </div>
+    <div
+      className="grid__column grid__column--10"
+    >
+      Column
+       
+      10
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 3 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--3"
+    >
+      Column
+       
+      3
+    </div>
+    <div
+      className="grid__column grid__column--9"
+    >
+      Column
+       
+      9
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 4 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--4"
+    >
+      Column
+       
+      4
+    </div>
+    <div
+      className="grid__column grid__column--8"
+    >
+      Column
+       
+      8
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 5 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--5"
+    >
+      Column
+       
+      5
+    </div>
+    <div
+      className="grid__column grid__column--7"
+    >
+      Column
+       
+      7
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 6 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--6"
+    >
+      Column
+       
+      6
+    </div>
+    <div
+      className="grid__column grid__column--6"
+    >
+      Column
+       
+      6
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 7 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--7"
+    >
+      Column
+       
+      7
+    </div>
+    <div
+      className="grid__column grid__column--5"
+    >
+      Column
+       
+      5
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 8 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--8"
+    >
+      Column
+       
+      8
+    </div>
+    <div
+      className="grid__column grid__column--4"
+    >
+      Column
+       
+      4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 9 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--9"
+    >
+      Column
+       
+      9
+    </div>
+    <div
+      className="grid__column grid__column--3"
+    >
+      Column
+       
+      3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 10 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--10"
+    >
+      Column
+       
+      10
+    </div>
+    <div
+      className="grid__column grid__column--2"
+    >
+      Column
+       
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid component renders column span 11 correctly 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__row"
+  >
+    <div
+      className="grid__column grid__column--11"
+    >
+      Column
+       
+      11
+    </div>
+    <div
+      className="grid__column grid__column--1"
+    >
+      Column
+       
+      1
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Grid component renders correctly 1`] = `
 <div
   className="grid"
