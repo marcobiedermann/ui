@@ -30,13 +30,13 @@ npm install
 Launch Storybook development server with hot module replacement.
 
 ```sh
-npm run storybook
+npm run develop
 ```
 
 Build Storybook for production into `docs` folder.
 
 ```sh
-npm run storybook:build
+npm run build
 ```
 
 ### Testing

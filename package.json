@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
     "build": "build-storybook -c .storybook -o docs",
+    "develop": "start-storybook -p 9001 -c .storybook",
     "lint:css": "stylelint '**/*.css'",
     "lint:js": "eslint '**/*.{js,jsx}'",
     "lint": "npm run lint:css && npm run lint:js",
-    "postinstall": "npm run bootstrap",
+    "postinstall": "lerna bootstrap --hoist",
     "publish": "lerna publish",
-    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "npm run lint && jest"
   },
   "repository": {
