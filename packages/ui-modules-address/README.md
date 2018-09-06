@@ -1,6 +1,6 @@
-# @marcobiedermann/ui-modules-anchor
+# @marcobiedermann/ui-modules-address
 
-[![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-anchor.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-anchor)
+[![npm version](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-address.svg)](https://badge.fury.io/js/%40marcobiedermann%2Fui-modules-address)
 
 ## Table of contents
 
@@ -18,13 +18,13 @@
 ## Installation
 
 ```sh
-npm install @marcobiedermann/ui-modules-anchor
+npm install @marcobiedermann/ui-modules-address
 ```
 
 ## Usage
 
 ```css
-@import '@marcobiedermann/ui-modules-anchor';
+@import '@marcobiedermann/ui-modules-address';
 ```
 
 ## License
