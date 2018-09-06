@@ -9,5 +9,7 @@ import '../style.css';
 storiesOf('Anchor/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <a href="/ui">{text('Content', 'Anchor')}</a>
+    <a href="/ui">
+      {text('Content', 'Anchor')}
+    </a>
   ));

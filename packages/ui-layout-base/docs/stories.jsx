@@ -9,5 +9,7 @@ import '../style.css';
 storiesOf('Body/1.0.0', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <div>{text('Content', 'Body')}</div>
+    <div>
+      {text('Content', 'Body')}
+    </div>
   ));
