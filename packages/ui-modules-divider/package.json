@@ -1,0 +1,19 @@
+{
+  "name": "@marcobiedermann/ui-modules-divider",
+  "version": "1.0.0",
+  "description": "",
+  "style": "style.css",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-divider",
+  "keywords": [
+    "css",
+    "design-system",
+    "divider",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  }
+}
