@@ -2,7 +2,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, select, text } from '@storybook/addon-knobs';
-/* eslint-enable */
 
 import Media, { MediaObject, MediaBody } from '../index';
 
