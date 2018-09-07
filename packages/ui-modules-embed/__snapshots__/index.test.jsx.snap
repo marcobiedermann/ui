@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Embed component renders aspect ratio correctly 1`] = `
+<div
+  className="embed embed--16-9"
+>
+  <iframe
+    src="/"
+    title="@marcobiedermann/ui"
+  />
+</div>
+`;
+
+exports[`Embed component renders correctly 1`] = `
+<div
+  className="embed"
+>
+  <iframe
+    src="/"
+    title="@marcobiedermann/ui"
+  />
+</div>
+`;

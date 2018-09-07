@@ -1,0 +1,25 @@
+{
+  "name": "@marcobiedermann/ui-modules-embed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "style": "style.css",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-list",
+  "keywords": [
+    "css",
+    "design-system",
+    "embed",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1"
+  }
+}

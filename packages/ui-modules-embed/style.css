@@ -1,0 +1,29 @@
+.embed {
+  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+  padding-top: 100%;
+  position: relative;
+}
+
+.embed--4-3 {
+  padding-top: calc(100% / (4 / 3));
+}
+
+.embed--16-9 {
+  padding-top: calc(100% / (16 / 9));
+}
+
+.embed > * {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+iframe {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
