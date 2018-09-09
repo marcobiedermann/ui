@@ -33,4 +33,4 @@ npm install @marcobiedermann/ui-modules-list
 
 [MIT License](../../LICENSE)
 
-Copyright (c) 2017 Marco Biedermann
+Copyright (c) 2018 Marco Biedermann
