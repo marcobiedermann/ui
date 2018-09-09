@@ -5,7 +5,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import Header from '../index';
 
-storiesOf('Header/1.0.0', module)
+storiesOf('Header', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <Header>

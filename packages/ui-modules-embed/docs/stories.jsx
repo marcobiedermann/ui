@@ -5,7 +5,7 @@ import { withKnobs, select, text } from '@storybook/addon-knobs';
 
 import Embed from '../index';
 
-storiesOf('Embed/1.0.0', module)
+storiesOf('Embed', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <Embed

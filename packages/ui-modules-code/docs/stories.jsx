@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 
 import '../style.css';
 
-storiesOf('Code/1.0.0', module)
+storiesOf('Code', module)
   .addWithStaticMarkup('default', () => (
     <pre>
       <code>

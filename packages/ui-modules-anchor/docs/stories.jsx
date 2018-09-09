@@ -5,7 +5,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Anchor/1.0.0', module)
+storiesOf('Anchor', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <a href="/ui">

@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 
 import '../style.css';
 
-storiesOf('Divider/1.0.0', module)
+storiesOf('Divider', module)
   .addWithStaticMarkup('default', () => (
     <hr />
   ));

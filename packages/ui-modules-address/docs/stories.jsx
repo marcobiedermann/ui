@@ -5,7 +5,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Address/1.0.0', module)
+storiesOf('Address', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <address

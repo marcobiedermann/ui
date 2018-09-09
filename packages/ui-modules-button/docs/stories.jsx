@@ -5,7 +5,7 @@ import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 
 import Button from '../index';
 
-storiesOf('Button/1.0.0', module)
+storiesOf('Button', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <Button

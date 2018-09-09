@@ -5,7 +5,7 @@ import { withKnobs, number } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Canvas/1.0.0', module)
+storiesOf('Canvas', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <canvas

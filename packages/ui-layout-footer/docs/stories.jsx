@@ -5,7 +5,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import Footer from '../index';
 
-storiesOf('Footer/1.0.0', module)
+storiesOf('Footer', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <Footer>

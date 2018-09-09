@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 import Grid, { GridRow, GridColumn } from '../index';
 
-storiesOf('Grid/1.0.0', module)
+storiesOf('Grid', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('Default', () => (
     <Grid>

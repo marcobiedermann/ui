@@ -5,7 +5,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Headline/1.0.0', module)
+storiesOf('Headline', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('h1', () => (
     <h1>

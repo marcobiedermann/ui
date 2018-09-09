@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 
 import '../style.css';
 
-storiesOf('List/1.0.0', module)
+storiesOf('List', module)
   .addWithStaticMarkup('definition list', () => (
     <dl>
       <dt>

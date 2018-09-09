@@ -5,7 +5,7 @@ import { withKnobs, select, text } from '@storybook/addon-knobs';
 
 import Media, { MediaObject, MediaBody } from '../index';
 
-storiesOf('Media/1.0.0', module)
+storiesOf('Media', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <Media>

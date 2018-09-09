@@ -6,7 +6,7 @@ import { withKnobs, boolean, text } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Video/1.0.0', module)
+storiesOf('Video', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <video

@@ -5,7 +5,7 @@ import { withKnobs, text, number } from '@storybook/addon-knobs';
 
 import '../style.css';
 
-storiesOf('Image/1.0.0', module)
+storiesOf('Image', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
     <img
