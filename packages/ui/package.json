@@ -30,6 +30,7 @@
     "@marcobiedermann/ui-modules-image": "^1.0.0",
     "@marcobiedermann/ui-modules-list": "^1.0.0",
     "@marcobiedermann/ui-modules-media": "^1.0.0",
+    "@marcobiedermann/ui-modules-table": "^1.0.0",
     "@marcobiedermann/ui-modules-video": "^1.0.0",
     "@marcobiedermann/ui-themes-default": "^1.0.0",
     "@marcobiedermann/ui-utilities-grid": "^1.0.0"
