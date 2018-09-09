@@ -1,14 +1,14 @@
 {
-  "name": "@marcobiedermann/ui-modules-embed",
+  "name": "@marcobiedermann/ui-modules-button",
   "version": "1.0.0",
   "description": "",
   "main": "index.jsx",
   "style": "style.css",
-  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-embed",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-button",
   "keywords": [
+    "button",
     "css",
     "design-system",
-    "embed",
     "style",
     "ui"
   ],
@@ -18,6 +18,7 @@
     "url": "https://github.com/marcobiedermann/ui/issues"
   },
   "dependencies": {
+    "@marcobiedermann/ui-themes-default": "^1.0.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
     "react": "^16.4.1"

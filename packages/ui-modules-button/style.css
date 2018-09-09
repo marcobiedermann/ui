@@ -1,0 +1,39 @@
+@import '@marcobiedermann/ui-themes-default';
+
+:root {
+  --button-background-color: var(--color-primary);
+  --button-color: #fff;
+  --button-disabled-background-color: var(--color-info);
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: var(--button-background-color);
+  border-radius: 999em;
+  color: var(--button-color);
+  display: inline-block;
+  font-size: 0.875rem;
+  min-width: 8em;
+  padding: 0.5em 1.5em;
+  transition: background-color 0.3s;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #2c387d;
+}
+
+.button[disabled] {
+  background-color: var(--button-disabled-background-color);
+  cursor: not-allowed;
+}

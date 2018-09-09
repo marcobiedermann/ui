@@ -21,6 +21,7 @@
     "@marcobiedermann/ui-layout-header": "^1.0.0",
     "@marcobiedermann/ui-modules-address": "^1.0.0",
     "@marcobiedermann/ui-modules-anchor": "^1.0.0",
+    "@marcobiedermann/ui-modules-button": "^1.0.0",
     "@marcobiedermann/ui-modules-canvas": "^1.0.0",
     "@marcobiedermann/ui-modules-divider": "^1.0.0",
     "@marcobiedermann/ui-modules-embed": "^1.0.0",

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders correctly 1`] = `
+<button
+  className="button"
+  disabled={false}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Button component renders disabled correctly 1`] = `
+<button
+  className="button"
+  disabled={true}
+  type="button"
+>
+  Button
+</button>
+`;

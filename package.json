@@ -9,7 +9,7 @@
     "lint:css": "stylelint '**/*.css'",
     "lint:js": "eslint '**/*.{js,jsx}'",
     "lint": "npm run lint:css && npm run lint:js",
-    "postinstall": "lerna bootstrap --hoist",
+    "postinstall": "lerna bootstrap",
     "publish": "lerna publish",
     "test": "npm run lint && jest"
   },
