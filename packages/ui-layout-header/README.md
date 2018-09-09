@@ -24,8 +24,22 @@ npm install @marcobiedermann/ui-layout-header
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-layout-header';
+```
+
+### React / React Native
+
+```jsx
+import Header from '@marcobiedermann/ui-layout-header';
+
+const Component = () => (
+  <Header>
+    Header
+  </Header>
+)
 ```
 
 ## License

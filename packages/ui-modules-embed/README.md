@@ -23,8 +23,22 @@ npm install @marcobiedermann/ui-modules-embed
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-embed';
+```
+
+### React / React Native
+
+```jsx
+import Embed from '@marcobiedermann/ui-modules-embed';
+
+const Component = () => (
+  <Embed>
+    <iframe src="/" />
+  </Embed>
+)
 ```
 
 ## License

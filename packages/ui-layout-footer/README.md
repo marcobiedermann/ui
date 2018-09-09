@@ -24,8 +24,22 @@ npm install @marcobiedermann/ui-layout-footer
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-layout-footer';
+```
+
+### React / React Native
+
+```jsx
+import Footer from '@marcobiedermann/ui-layout-footer';
+
+const Component = () => (
+  <Footer>
+    Footer
+  </Footer>
+)
 ```
 
 ## License

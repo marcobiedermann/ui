@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-anchor
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-anchor';
 ```

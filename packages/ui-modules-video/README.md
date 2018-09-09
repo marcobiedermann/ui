@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-video
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-video';
 ```

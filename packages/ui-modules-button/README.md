@@ -23,8 +23,22 @@ npm install @marcobiedermann/ui-modules-button
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-button';
+```
+
+### React / React Native
+
+```jsx
+import Button from '@marcobiedermann/ui-modules-button';
+
+const Component = () => (
+  <Button>
+    Button
+  </Button>
+)
 ```
 
 ## License

@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-list
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-list';
 ```

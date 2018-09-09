@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-canvas
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-canvas';
 ```

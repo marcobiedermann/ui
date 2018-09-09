@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-image
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-image';
 ```

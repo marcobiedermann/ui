@@ -23,8 +23,27 @@ npm install @marcobiedermann/ui-modules-media
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-media';
+```
+
+### React / React Native
+
+```jsx
+import Media, { MediaObject, MediaBody } from '@marcobiedermann/ui-modules-media';
+
+const Component = () => (
+  <Media>
+    <MediaObject>
+      <img src="path/to/image" />
+    </MediaObject>
+    <MediaBody>
+      Body
+    </MediaBody>
+  </Media>
+);
 ```
 
 ## License

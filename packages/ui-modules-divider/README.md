@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-divider
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-divider';
 ```

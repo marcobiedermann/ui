@@ -24,6 +24,8 @@ npm install @marcobiedermann/ui
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui';
 ```

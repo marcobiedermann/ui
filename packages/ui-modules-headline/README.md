@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-headline
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-headline';
 ```

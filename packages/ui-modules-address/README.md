@@ -23,6 +23,8 @@ npm install @marcobiedermann/ui-modules-address
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-modules-address';
 ```

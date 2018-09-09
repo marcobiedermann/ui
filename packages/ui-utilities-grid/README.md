@@ -23,8 +23,30 @@ npm install @marcobiedermann/ui-utilities-grid
 
 ## Usage
 
+### CSS
+
 ```css
 @import '@marcobiedermann/ui-utilities-grid';
+```
+
+### React / React Native
+
+```jsx
+import Grid, { GridRow, GridColumn } from '@marcobiedermann/ui-utilities-grid';
+
+const Component = () => (
+  <Grid>
+    <GridRow>
+      <GridColumn>
+        Column 1
+      </GridColumn>
+
+      <GridColumn>
+        Column 2
+      </GridColumn>
+    </GridRow>
+  </Grid>
+);
 ```
 
 ## License
