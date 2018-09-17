@@ -43,12 +43,12 @@ const GridColumn = ({ children, span }) => (
 
 GridColumn.propTypes = {
   children: PropTypes.node,
-  span: PropTypes.string,
+  span: PropTypes.number,
 };
 
 GridColumn.defaultProps = {
   children: null,
-  span: '12',
+  span: 0,
 };
 
 export default Grid;

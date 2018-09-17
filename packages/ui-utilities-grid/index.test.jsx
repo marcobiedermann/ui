@@ -20,12 +20,12 @@ describe('Grid component', () => {
         .create(
           <Grid>
             <GridRow>
-              <GridColumn span={`${i}`}>
+              <GridColumn span={i}>
                 Column
                 {' '}
                 {i}
               </GridColumn>
-              <GridColumn span={`${GRID_COLUMNS - i}`}>
+              <GridColumn span={GRID_COLUMNS - i}>
                 Column
                 {' '}
                 {GRID_COLUMNS - i}
