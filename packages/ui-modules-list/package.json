@@ -2,12 +2,12 @@
   "name": "@marcobiedermann/ui-modules-list",
   "version": "1.0.0",
   "description": "",
-  "style": "style.css",
+  "style": "list.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-list",
   "keywords": [
-    "anchor",
     "css",
     "design-system",
+    "list",
     "style",
     "ui"
   ],

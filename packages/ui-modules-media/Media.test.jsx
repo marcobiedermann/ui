@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Media, { MediaObject, MediaBody } from '.';
+import Media, { MediaObject, MediaBody } from './Media';
 
 describe('Media component', () => {
   it('renders left correctly', () => {

@@ -2,7 +2,7 @@
   "name": "@marcobiedermann/ui-layout-base",
   "version": "1.0.0",
   "description": "",
-  "style": "style.css",
+  "style": "base.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-base",
   "keywords": [
     "css",

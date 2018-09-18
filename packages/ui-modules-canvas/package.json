@@ -2,7 +2,7 @@
   "name": "@marcobiedermann/ui-modules-canvas",
   "version": "1.0.0",
   "description": "",
-  "style": "style.css",
+  "style": "canvas.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-canvas",
   "keywords": [
     "css",

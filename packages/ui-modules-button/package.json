@@ -2,8 +2,8 @@
   "name": "@marcobiedermann/ui-modules-button",
   "version": "1.0.0",
   "description": "",
-  "main": "index.jsx",
-  "style": "style.css",
+  "main": "Button.jsx",
+  "style": "button.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-button",
   "keywords": [
     "button",

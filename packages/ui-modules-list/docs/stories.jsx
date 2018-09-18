@@ -1,8 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
-import '../style.css';
+import '../list.css';
 
 storiesOf('List', module)
   .addWithStaticMarkup('definition list', () => (

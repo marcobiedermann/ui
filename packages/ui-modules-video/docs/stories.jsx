@@ -3,8 +3,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs';
-
-import '../style.css';
+import '../video.css';
 
 storiesOf('Video', module)
   .addDecorator(withKnobs)

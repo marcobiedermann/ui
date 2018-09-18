@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, select, text } from '@storybook/addon-knobs';
 
-import Media, { MediaObject, MediaBody } from '../index';
+import Media, { MediaObject, MediaBody } from '../Media';
 
 storiesOf('Media', module)
   .addDecorator(withKnobs)

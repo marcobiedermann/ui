@@ -2,7 +2,7 @@
   "name": "@marcobiedermann/ui-modules-address",
   "version": "1.0.0",
   "description": "",
-  "style": "style.css",
+  "style": "address.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-address",
   "keywords": [
     "address",

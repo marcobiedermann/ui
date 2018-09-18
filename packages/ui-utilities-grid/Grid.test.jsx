@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Grid, { GridRow, GridColumn } from '.';
+import Grid, { GridRow, GridColumn } from './Grid';
 
 describe('Grid component', () => {
   const GRID_COLUMNS = 12;

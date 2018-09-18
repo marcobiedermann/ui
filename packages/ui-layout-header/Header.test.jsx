@@ -1,12 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Footer from '.';
+import Header from './Header';
 
-describe('Footer component', () => {
+describe('Header component', () => {
   it('renders correctly', () => {
     const tree = renderer
-      .create(<Footer />)
+      .create(<Header />)
       .toJSON();
 
     expect(tree).toMatchSnapshot();

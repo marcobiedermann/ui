@@ -1,33 +1,27 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Embed from '.';
+import Button from './Button';
 
-describe('Embed component', () => {
+describe('Button component', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(
-        <Embed>
-          <iframe
-            src="/"
-            title="@marcobiedermann/ui"
-          />
-        </Embed>,
+        <Button>
+          Button
+        </Button>,
       )
       .toJSON();
 
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders aspect ratio correctly', () => {
+  it('renders disabled correctly', () => {
     const tree = renderer
       .create(
-        <Embed aspectRatio="16-9">
-          <iframe
-            src="/"
-            title="@marcobiedermann/ui"
-          />
-        </Embed>,
+        <Button disabled>
+          Button
+        </Button>,
       )
       .toJSON();
 

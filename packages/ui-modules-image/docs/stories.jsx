@@ -2,8 +2,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, number } from '@storybook/addon-knobs';
-
-import '../style.css';
+import '../image.css';
 
 storiesOf('Image', module)
   .addDecorator(withKnobs)

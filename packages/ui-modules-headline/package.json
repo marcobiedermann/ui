@@ -2,12 +2,12 @@
   "name": "@marcobiedermann/ui-modules-headline",
   "version": "1.0.0",
   "description": "",
-  "style": "style.css",
+  "style": "headline.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-headline",
   "keywords": [
-    "anchor",
     "css",
     "design-system",
+    "headline",
     "style",
     "ui"
   ],

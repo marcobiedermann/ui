@@ -2,8 +2,8 @@
   "name": "@marcobiedermann/ui-utilities-grid",
   "version": "1.0.0",
   "description": "",
-  "main": "index.jsx",
-  "style": "style.css",
+  "main": "Grid.jsx",
+  "style": "grid.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-utilities-grid",
   "keywords": [
     "css",

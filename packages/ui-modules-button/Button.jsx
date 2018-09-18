@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styles from './style.css';
+import styles from './button.css';
 
 const Button = ({ children, disabled }) => (
   <button
