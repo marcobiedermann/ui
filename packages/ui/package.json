@@ -26,6 +26,7 @@
     "@marcobiedermann/ui-modules-code": "^1.0.0",
     "@marcobiedermann/ui-modules-divider": "^1.0.0",
     "@marcobiedermann/ui-modules-embed": "^1.0.0",
+    "@marcobiedermann/ui-modules-figure": "^1.0.0",
     "@marcobiedermann/ui-modules-headline": "^1.0.0",
     "@marcobiedermann/ui-modules-image": "^1.0.0",
     "@marcobiedermann/ui-modules-list": "^1.0.0",
