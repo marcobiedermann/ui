@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styles from './grid.css';
+import styles from '../grid.css';
 
 const Grid = ({ children }) => (
   <div className={styles.grid}>

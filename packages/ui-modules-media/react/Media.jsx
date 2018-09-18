@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styles from './media.css';
+import styles from '../media.css';
 
 const Media = ({ children }) => (
   <div className={styles.media}>

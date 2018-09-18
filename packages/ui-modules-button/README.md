@@ -32,7 +32,7 @@ npm install @marcobiedermann/ui-modules-button
 ### React / React Native
 
 ```jsx
-import Button from '@marcobiedermann/ui-modules-button';
+import Button from '@marcobiedermann/ui-modules-button/react';
 
 const Component = () => (
   <Button>

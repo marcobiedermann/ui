@@ -2,7 +2,6 @@
   "name": "@marcobiedermann/ui-layout-header",
   "version": "1.0.0",
   "description": "",
-  "main": "Header.jsx",
   "style": "header.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-header",
   "keywords": [

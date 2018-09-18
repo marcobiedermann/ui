@@ -33,7 +33,7 @@ npm install @marcobiedermann/ui-layout-footer
 ### React / React Native
 
 ```jsx
-import Footer from '@marcobiedermann/ui-layout-footer';
+import Footer from '@marcobiedermann/ui-layout-footer/react';
 
 const Component = () => (
   <Footer>

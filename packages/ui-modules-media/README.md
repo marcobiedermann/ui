@@ -32,7 +32,7 @@ npm install @marcobiedermann/ui-modules-media
 ### React / React Native
 
 ```jsx
-import Media, { MediaObject, MediaBody } from '@marcobiedermann/ui-modules-media';
+import Media, { MediaObject, MediaBody } from '@marcobiedermann/ui-modules-media/react';
 
 const Component = () => (
   <Media>

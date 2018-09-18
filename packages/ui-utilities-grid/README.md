@@ -32,7 +32,7 @@ npm install @marcobiedermann/ui-utilities-grid
 ### React / React Native
 
 ```jsx
-import Grid, { GridRow, GridColumn } from '@marcobiedermann/ui-utilities-grid';
+import Grid, { GridRow, GridColumn } from '@marcobiedermann/ui-utilities-grid/react';
 
 const Component = () => (
   <Grid>

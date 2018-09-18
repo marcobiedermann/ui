@@ -33,7 +33,7 @@ npm install @marcobiedermann/ui-layout-header
 ### React / React Native
 
 ```jsx
-import Header from '@marcobiedermann/ui-layout-header';
+import Header from '@marcobiedermann/ui-layout-header/react';
 
 const Component = () => (
   <Header>

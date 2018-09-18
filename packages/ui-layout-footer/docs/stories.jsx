@@ -2,7 +2,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
-import Footer from '../Footer';
+import Footer from '../react/Footer';
 
 storiesOf('Footer', module)
   .addDecorator(withKnobs)

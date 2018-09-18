@@ -2,7 +2,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
-import Grid, { GridRow, GridColumn } from '../Grid';
+import Grid, { GridRow, GridColumn } from '../react/Grid';
 
 storiesOf('Grid', module)
   .addDecorator(withKnobs)

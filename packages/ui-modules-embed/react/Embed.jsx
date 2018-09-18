@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styles from './embed.css';
+import styles from '../embed.css';
 
 const Embed = ({ children, aspectRatio }) => (
   <div

@@ -2,7 +2,6 @@
   "name": "@marcobiedermann/ui-layout-footer",
   "version": "1.0.0",
   "description": "",
-  "main": "Footer.jsx",
   "style": "footer.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-footer",
   "keywords": [

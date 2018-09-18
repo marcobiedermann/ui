@@ -32,7 +32,7 @@ npm install @marcobiedermann/ui-modules-embed
 ### React / React Native
 
 ```jsx
-import Embed from '@marcobiedermann/ui-modules-embed';
+import Embed from '@marcobiedermann/ui-modules-embed/react';
 
 const Component = () => (
   <Embed>
