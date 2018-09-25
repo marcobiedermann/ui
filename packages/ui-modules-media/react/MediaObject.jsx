@@ -1,26 +1,26 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import styles from '../embed.css';
+import styles from '../media.css';
 
-class Embed extends PureComponent {
+class MediaObject extends PureComponent {
   static propTypes = {
-    aspectRatio: PropTypes.string,
     children: PropTypes.node,
+    modifier: PropTypes.string,
   }
 
   static defaultProps = {
-    aspectRatio: '',
     children: null,
+    modifier: 'left',
   }
 
   render() {
-    const { children, aspectRatio } = this.props;
+    const { children, modifier } = this.props;
 
     return (
       <div
-        className={classNames(styles.embed, {
-          [styles[`embed--${aspectRatio}`]]: aspectRatio,
+        className={classNames(styles.media__object, {
+          [styles[`media__object--${modifier}`]]: modifier,
         })}
       >
         {children}
@@ -29,4 +29,4 @@ class Embed extends PureComponent {
   }
 }
 
-export default Embed;
+export default MediaObject;

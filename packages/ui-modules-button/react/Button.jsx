@@ -1,26 +1,32 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, { PureComponent } from 'react';
 import styles from '../button.css';
 
-const Button = ({ children, disabled }) => (
-  <button
-    className={classNames(styles.button)}
-    type="button"
-    disabled={disabled}
-  >
-    {children}
-  </button>
-);
+class Button extends PureComponent {
+  static propTypes = {
+    children: PropTypes.node,
+    disabled: PropTypes.bool,
+  }
 
-Button.propTypes = {
-  children: PropTypes.node,
-  disabled: PropTypes.bool,
-};
+  static defaultProps = {
+    children: null,
+    disabled: false,
+  }
 
-Button.defaultProps = {
-  children: null,
-  disabled: false,
-};
+  render() {
+    const { children, disabled } = this.props;
+
+    return (
+      <button
+        className={classNames(styles.button)}
+        type="button"
+        disabled={disabled}
+      >
+        {children}
+      </button>
+    );
+  }
+}
 
 export default Button;

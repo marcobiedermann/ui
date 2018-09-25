@@ -1,26 +1,26 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import styles from '../embed.css';
+import styles from '../grid.css';
 
-class Embed extends PureComponent {
+class GridColumn extends PureComponent {
   static propTypes = {
-    aspectRatio: PropTypes.string,
     children: PropTypes.node,
+    span: PropTypes.number,
   }
 
   static defaultProps = {
-    aspectRatio: '',
     children: null,
+    span: 0,
   }
 
   render() {
-    const { children, aspectRatio } = this.props;
+    const { children, span } = this.props;
 
     return (
       <div
-        className={classNames(styles.embed, {
-          [styles[`embed--${aspectRatio}`]]: aspectRatio,
+        className={classNames(styles.grid__column, {
+          [styles[`grid__column--${span}`]]: span,
         })}
       >
         {children}
@@ -29,4 +29,4 @@ class Embed extends PureComponent {
   }
 }
 
-export default Embed;
+export default GridColumn;

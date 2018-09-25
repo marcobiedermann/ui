@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import styles from '../media.css';
 
-class Media extends PureComponent {
+class MediaBody extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
   }
@@ -15,11 +15,11 @@ class Media extends PureComponent {
     const { children } = this.props;
 
     return (
-      <div className={styles.media}>
+      <div className={styles.media__body}>
         {children}
       </div>
     );
   }
 }
 
-export default Media;
+export default MediaBody;

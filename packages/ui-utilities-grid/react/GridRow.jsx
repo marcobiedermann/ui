@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import styles from '../media.css';
+import styles from '../grid.css';
 
-class Media extends PureComponent {
+class GridRow extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
   }
@@ -15,11 +15,11 @@ class Media extends PureComponent {
     const { children } = this.props;
 
     return (
-      <div className={styles.media}>
+      <div className={styles.grid__row}>
         {children}
       </div>
     );
   }
 }
 
-export default Media;
+export default GridRow;
