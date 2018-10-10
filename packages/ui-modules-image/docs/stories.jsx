@@ -2,12 +2,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, number } from '@storybook/addon-knobs';
-import '../image.css';
+import Image from '../react';
 
 storiesOf('Image', module)
   .addDecorator(withKnobs)
   .addWithStaticMarkup('default', () => (
-    <img
+    <Image
       src={text('src', 'https://via.placeholder.com/800x600')}
       alt={text('alt', 'Placeholder')}
       width={number('width', '800')}

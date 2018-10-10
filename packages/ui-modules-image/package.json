@@ -15,5 +15,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcobiedermann/ui/issues"
-  }
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {}
 }
