@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "build-storybook -c .storybook -o docs",
     "develop": "start-storybook -p 9001 -c .storybook",
