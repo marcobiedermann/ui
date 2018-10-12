@@ -7,7 +7,7 @@ import '../video.css';
 
 storiesOf('Video', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <video
       autoPlay={boolean('autoplay', false)}
       muted={boolean('muted', false)}

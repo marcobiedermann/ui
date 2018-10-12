@@ -6,7 +6,7 @@ import '../canvas.css';
 
 storiesOf('Canvas', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <canvas
       width={number('width', '800')}
       height={number('height', '600')}

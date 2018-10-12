@@ -6,7 +6,7 @@ import Image from '../react';
 
 storiesOf('Image', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Image
       src={text('src', 'https://via.placeholder.com/800x600')}
       alt={text('alt', 'Placeholder')}

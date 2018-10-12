@@ -6,7 +6,7 @@ import '../anchor.css';
 
 storiesOf('Anchor', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <a href="/ui">
       {text('Content', 'Anchor')}
     </a>

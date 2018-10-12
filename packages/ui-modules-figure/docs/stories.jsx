@@ -4,6 +4,6 @@ import { storiesOf } from '@storybook/react';
 import '../figure.css';
 
 storiesOf('Figure', module)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <figure />
   ));

@@ -6,7 +6,7 @@ import Footer from '../react/Footer';
 
 storiesOf('Footer', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Footer>
       {text('Content', 'Footer')}
     </Footer>

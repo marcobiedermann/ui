@@ -6,7 +6,7 @@ import Button from '../react/Button';
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Button
       disabled={boolean('Disabled', false)}
     >

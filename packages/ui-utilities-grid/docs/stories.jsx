@@ -6,12 +6,12 @@ import Grid, { GridRow, GridColumn } from '../react';
 
 storiesOf('Grid', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('Default', () => (
+  .add('Default', () => (
     <Grid>
       {text('Content', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis ipsam quo omnis dolore quidem esse dignissimos eum laborum adipisci, consequuntur tenetur excepturi labore, ullam animi ut saepe reiciendis ad?')}
     </Grid>
   ))
-  .addWithStaticMarkup('Column', () => (
+  .add('Column', () => (
     <Grid>
       <GridRow>
         <GridColumn>
@@ -23,7 +23,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 1', () => (
+  .add('Column Span 1', () => (
     <Grid>
       <GridRow>
         <GridColumn span={1}>
@@ -35,7 +35,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 2', () => (
+  .add('Column Span 2', () => (
     <Grid>
       <GridRow>
         <GridColumn span={2}>
@@ -47,7 +47,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 3', () => (
+  .add('Column Span 3', () => (
     <Grid>
       <GridRow>
         <GridColumn span={3}>
@@ -59,7 +59,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 4', () => (
+  .add('Column Span 4', () => (
     <Grid>
       <GridRow>
         <GridColumn span={4}>
@@ -71,7 +71,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 5', () => (
+  .add('Column Span 5', () => (
     <Grid>
       <GridRow>
         <GridColumn span={5}>
@@ -83,7 +83,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 6', () => (
+  .add('Column Span 6', () => (
     <Grid>
       <GridRow>
         <GridColumn span={6}>
@@ -95,7 +95,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 7', () => (
+  .add('Column Span 7', () => (
     <Grid>
       <GridRow>
         <GridColumn span={7}>
@@ -107,7 +107,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 8', () => (
+  .add('Column Span 8', () => (
     <Grid>
       <GridRow>
         <GridColumn span={8}>
@@ -119,7 +119,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 9', () => (
+  .add('Column Span 9', () => (
     <Grid>
       <GridRow>
         <GridColumn span={9}>
@@ -131,7 +131,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 10', () => (
+  .add('Column Span 10', () => (
     <Grid>
       <GridRow>
         <GridColumn span={10}>
@@ -143,7 +143,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 11', () => (
+  .add('Column Span 11', () => (
     <Grid>
       <GridRow>
         <GridColumn span={11}>
@@ -155,7 +155,7 @@ storiesOf('Grid', module)
       </GridRow>
     </Grid>
   ))
-  .addWithStaticMarkup('Column Span 12', () => (
+  .add('Column Span 12', () => (
     <Grid>
       <GridRow>
         <GridColumn span={12}>

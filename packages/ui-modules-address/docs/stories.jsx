@@ -6,7 +6,7 @@ import '../address.css';
 
 storiesOf('Address', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <address
       itemScope
       itemType="http://schema.org/Organization"

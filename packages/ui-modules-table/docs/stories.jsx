@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import '../table.css';
 
 storiesOf('Table', module)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <table>
       <thead>
         <tr>

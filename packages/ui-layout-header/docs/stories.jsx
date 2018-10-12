@@ -6,7 +6,7 @@ import Header from '../react/Header';
 
 storiesOf('Header', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Header>
       {text('Content', 'Header')}
     </Header>

@@ -6,7 +6,7 @@ import '../base.css';
 
 storiesOf('Body', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <div>
       {text('Content', 'Body')}
     </div>

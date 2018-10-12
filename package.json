@@ -53,7 +53,6 @@
     "postcss-import": "^12.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-storybook-addon-static-markup": "^0.1.0",
     "react-test-renderer": "^16.5.1",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0",

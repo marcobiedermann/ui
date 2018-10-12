@@ -6,7 +6,7 @@ import Embed from '../react/Embed';
 
 storiesOf('Embed', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Embed
       aspectRatio={select('Aspect Ratio', {
         '16-9': '16-9',

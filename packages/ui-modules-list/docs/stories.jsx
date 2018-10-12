@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import '../list.css';
 
 storiesOf('List', module)
-  .addWithStaticMarkup('definition list', () => (
+  .add('definition list', () => (
     <dl>
       <dt>
         Coffee
@@ -20,7 +20,7 @@ storiesOf('List', module)
       </dd>
     </dl>
   ))
-  .addWithStaticMarkup('ordered list', () => (
+  .add('ordered list', () => (
     <ol>
       <li>
         List Item 1
@@ -50,7 +50,7 @@ storiesOf('List', module)
       </li>
     </ol>
   ))
-  .addWithStaticMarkup('unordered list', () => (
+  .add('unordered list', () => (
     <ul>
       <li>
         List Item 1

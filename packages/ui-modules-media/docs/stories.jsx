@@ -6,7 +6,7 @@ import Media, { MediaObject, MediaBody } from '../react';
 
 storiesOf('Media', module)
   .addDecorator(withKnobs)
-  .addWithStaticMarkup('default', () => (
+  .add('default', () => (
     <Media>
       <MediaObject
         modifier={select('Modifier', {
