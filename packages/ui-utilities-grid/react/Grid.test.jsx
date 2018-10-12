@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Grid, { GridRow, GridColumn } from '.';
