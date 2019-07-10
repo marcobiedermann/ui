@@ -7,12 +7,8 @@ describe('Media component', () => {
     const tree = renderer
       .create(
         <Media>
-          <MediaObject modifier="left">
-            Media Object
-          </MediaObject>
-          <MediaBody>
-            Media Body
-          </MediaBody>
+          <MediaObject modifier="left">Media Object</MediaObject>
+          <MediaBody>Media Body</MediaBody>
         </Media>,
       )
       .toJSON();
@@ -24,12 +20,8 @@ describe('Media component', () => {
     const tree = renderer
       .create(
         <Media>
-          <MediaObject modifier="right">
-            Media Object
-          </MediaObject>
-          <MediaBody>
-            Media Body
-          </MediaBody>
+          <MediaObject modifier="right">Media Object</MediaObject>
+          <MediaBody>Media Body</MediaBody>
         </Media>,
       )
       .toJSON();

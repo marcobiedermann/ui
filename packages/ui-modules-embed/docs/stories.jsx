@@ -8,14 +8,15 @@ storiesOf('Embed', module)
   .addDecorator(withKnobs)
   .add('default', () => (
     <Embed
-      aspectRatio={select('Aspect Ratio', {
-        '16-9': '16-9',
-        '4-3': '4-3',
-      }, '16-9')}
+      aspectRatio={select(
+        'Aspect Ratio',
+        {
+          '16-9': '16-9',
+          '4-3': '4-3',
+        },
+        '16-9',
+      )}
     >
-      <iframe
-        src={text('Src', '/')}
-        title={text('Title', '@marcobiedermann/ui')}
-      />
+      <iframe src={text('Src', '/')} title={text('Title', '@marcobiedermann/ui')} />
     </Embed>
   ));

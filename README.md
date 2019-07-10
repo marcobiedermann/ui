@@ -6,16 +6,16 @@
 
 ## Table of contents
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Usage](#usage)
-  * [Storybook](#storybook)
-  * [Testing](#testing)
-* [Publish](#publish)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Storybook](#storybook)
+  - [Testing](#testing)
+- [Publish](#publish)
 
 ## Requirements
 
-* [Node.js](https://nodejs.org)
+- [Node.js](https://nodejs.org)
 
 ## Installation
 

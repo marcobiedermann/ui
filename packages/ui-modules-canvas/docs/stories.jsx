@@ -6,9 +6,4 @@ import '../canvas.css';
 
 storiesOf('Canvas', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <canvas
-      width={number('width', '800')}
-      height={number('height', '600')}
-    />
-  ));
+  .add('default', () => <canvas width={number('width', '800')} height={number('height', '600')} />);

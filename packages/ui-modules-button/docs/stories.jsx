@@ -6,10 +6,4 @@ import Button from '../react/Button';
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <Button
-      disabled={boolean('Disabled', false)}
-    >
-      {text('Content', 'Button')}
-    </Button>
-  ));
+  .add('default', () => <Button disabled={boolean('Disabled', false)}>{text('Content', 'Button')}</Button>);

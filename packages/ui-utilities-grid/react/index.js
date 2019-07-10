@@ -3,7 +3,4 @@ import GridColumn from './GridColumn';
 import GridRow from './GridRow';
 
 export default Grid;
-export {
-  GridColumn,
-  GridRow,
-};
+export { GridColumn, GridRow };

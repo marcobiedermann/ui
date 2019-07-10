@@ -6,8 +6,4 @@ import Footer from '../react/Footer';
 
 storiesOf('Footer', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <Footer>
-      {text('Content', 'Footer')}
-    </Footer>
-  ));
+  .add('default', () => <Footer>{text('Content', 'Footer')}</Footer>);

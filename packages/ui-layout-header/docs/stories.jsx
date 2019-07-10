@@ -6,8 +6,4 @@ import Header from '../react/Header';
 
 storiesOf('Header', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <Header>
-      {text('Content', 'Header')}
-    </Header>
-  ));
+  .add('default', () => <Header>{text('Content', 'Header')}</Header>);

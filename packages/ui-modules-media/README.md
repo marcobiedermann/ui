@@ -4,16 +4,16 @@
 
 ## Table of contents
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## Requirements
 
-* [Node.js](https://nodejs.org)
-* [postcss](https://github.com/postcss/postcss)
-* [postcss-import](https://github.com/postcss/postcss-import)
+- [Node.js](https://nodejs.org)
+- [postcss](https://github.com/postcss/postcss)
+- [postcss-import](https://github.com/postcss/postcss-import)
 
 ## Installation
 
@@ -39,9 +39,7 @@ const Component = () => (
     <MediaObject>
       <img src="path/to/image" />
     </MediaObject>
-    <MediaBody>
-      Body
-    </MediaBody>
+    <MediaBody>Body</MediaBody>
   </Media>
 );
 ```

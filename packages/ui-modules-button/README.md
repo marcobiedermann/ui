@@ -4,16 +4,16 @@
 
 ## Table of contents
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## Requirements
 
-* [Node.js](https://nodejs.org)
-* [postcss](https://github.com/postcss/postcss)
-* [postcss-import](https://github.com/postcss/postcss-import)
+- [Node.js](https://nodejs.org)
+- [postcss](https://github.com/postcss/postcss)
+- [postcss-import](https://github.com/postcss/postcss-import)
 
 ## Installation
 
@@ -34,11 +34,7 @@ npm install @marcobiedermann/ui-modules-button
 ```jsx
 import Button from '@marcobiedermann/ui-modules-button/react';
 
-const Component = () => (
-  <Button>
-    Button
-  </Button>
-)
+const Component = () => <Button>Button</Button>;
 ```
 
 ## License

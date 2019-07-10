@@ -6,8 +6,4 @@ import '../base.css';
 
 storiesOf('Body', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <div>
-      {text('Content', 'Body')}
-    </div>
-  ));
+  .add('default', () => <div>{text('Content', 'Body')}</div>);

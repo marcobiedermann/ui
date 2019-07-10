@@ -7,12 +7,12 @@ class Embed extends PureComponent {
   static propTypes = {
     aspectRatio: PropTypes.string,
     children: PropTypes.node,
-  }
+  };
 
   static defaultProps = {
     aspectRatio: '',
     children: null,
-  }
+  };
 
   render() {
     const { children, aspectRatio } = this.props;

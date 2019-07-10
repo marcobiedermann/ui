@@ -7,12 +7,12 @@ class MediaObject extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
     modifier: PropTypes.string,
-  }
+  };
 
   static defaultProps = {
     children: null,
     modifier: 'left',
-  }
+  };
 
   render() {
     const { children, modifier } = this.props;

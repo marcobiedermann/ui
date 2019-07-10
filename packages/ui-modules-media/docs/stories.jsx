@@ -17,7 +17,10 @@ storiesOf('Media', module)
         Media Object
       </MediaObject>
       <MediaBody>
-        {text('Content', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis ipsam quo omnis dolore quidem esse dignissimos eum laborum adipisci, consequuntur tenetur excepturi labore, ullam animi ut saepe reiciendis ad?')}
+        {text(
+          'Content',
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis ipsam quo omnis dolore quidem esse dignissimos eum laborum adipisci, consequuntur tenetur excepturi labore, ullam animi ut saepe reiciendis ad?',
+        )}
       </MediaBody>
     </Media>
   ));

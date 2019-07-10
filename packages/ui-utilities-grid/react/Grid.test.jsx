@@ -6,9 +6,7 @@ describe('Grid component', () => {
   const GRID_COLUMNS = 12;
 
   it('renders correctly', () => {
-    const tree = renderer
-      .create(<Grid />)
-      .toJSON();
+    const tree = renderer.create(<Grid />).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
@@ -19,16 +17,8 @@ describe('Grid component', () => {
         .create(
           <Grid>
             <GridRow>
-              <GridColumn span={i}>
-                Column
-                {' '}
-                {i}
-              </GridColumn>
-              <GridColumn span={GRID_COLUMNS - i}>
-                Column
-                {' '}
-                {GRID_COLUMNS - i}
-              </GridColumn>
+              <GridColumn span={i}>Column {i}</GridColumn>
+              <GridColumn span={GRID_COLUMNS - i}>Column {GRID_COLUMNS - i}</GridColumn>
             </GridRow>
           </Grid>,
         )

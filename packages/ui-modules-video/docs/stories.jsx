@@ -8,13 +8,7 @@ import '../video.css';
 storiesOf('Video', module)
   .addDecorator(withKnobs)
   .add('default', () => (
-    <video
-      autoPlay={boolean('autoplay', false)}
-      muted={boolean('muted', false)}
-    >
-      <source
-        src={text('src', 'path/to/video.mp4')}
-        type="video/mp4"
-      />
+    <video autoPlay={boolean('autoplay', false)} muted={boolean('muted', false)}>
+      <source src={text('src', 'path/to/video.mp4')} type="video/mp4" />
     </video>
   ));

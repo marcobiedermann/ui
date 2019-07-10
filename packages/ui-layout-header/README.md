@@ -5,16 +5,16 @@
 
 ## Table of contents
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## Requirements
 
-* [Node.js](https://nodejs.org)
-* [postcss](https://github.com/postcss/postcss)
-* [postcss-import](https://github.com/postcss/postcss-import)
+- [Node.js](https://nodejs.org)
+- [postcss](https://github.com/postcss/postcss)
+- [postcss-import](https://github.com/postcss/postcss-import)
 
 ## Installation
 
@@ -35,11 +35,7 @@ npm install @marcobiedermann/ui-layout-header
 ```jsx
 import Header from '@marcobiedermann/ui-layout-header/react';
 
-const Component = () => (
-  <Header>
-    Header
-  </Header>
-)
+const Component = () => <Header>Header</Header>;
 ```
 
 ## License

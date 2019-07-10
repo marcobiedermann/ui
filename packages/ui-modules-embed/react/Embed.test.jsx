@@ -7,10 +7,7 @@ describe('Embed component', () => {
     const tree = renderer
       .create(
         <Embed>
-          <iframe
-            src="/"
-            title="@marcobiedermann/ui"
-          />
+          <iframe src="/" title="@marcobiedermann/ui" />
         </Embed>,
       )
       .toJSON();
@@ -22,10 +19,7 @@ describe('Embed component', () => {
     const tree = renderer
       .create(
         <Embed aspectRatio="16-9">
-          <iframe
-            src="/"
-            title="@marcobiedermann/ui"
-          />
+          <iframe src="/" title="@marcobiedermann/ui" />
         </Embed>,
       )
       .toJSON();

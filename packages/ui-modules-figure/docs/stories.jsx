@@ -3,7 +3,4 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import '../figure.css';
 
-storiesOf('Figure', module)
-  .add('default', () => (
-    <figure />
-  ));
+storiesOf('Figure', module).add('default', () => <figure />);

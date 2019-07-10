@@ -7,12 +7,12 @@ class GridColumn extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
     span: PropTypes.number,
-  }
+  };
 
   static defaultProps = {
     children: null,
     span: 0,
-  }
+  };
 
   render() {
     const { children, span } = this.props;

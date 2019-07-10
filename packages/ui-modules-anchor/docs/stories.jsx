@@ -6,8 +6,4 @@ import '../anchor.css';
 
 storiesOf('Anchor', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
-    <a href="/ui">
-      {text('Content', 'Anchor')}
-    </a>
-  ));
+  .add('default', () => <a href="/ui">{text('Content', 'Anchor')}</a>);

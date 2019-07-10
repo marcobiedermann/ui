@@ -5,20 +5,16 @@ import styles from '../grid.css';
 class GridRow extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
-  }
+  };
 
   static defaultProps = {
     children: null,
-  }
+  };
 
   render() {
     const { children } = this.props;
 
-    return (
-      <div className={styles.grid__row}>
-        {children}
-      </div>
-    );
+    return <div className={styles.grid__row}>{children}</div>;
   }
 }
 
