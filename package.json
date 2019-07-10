@@ -16,7 +16,7 @@
     "lint": "npm run lint:css && npm run lint:js",
     "postinstall": "lerna bootstrap",
     "publish": "lerna publish",
-    "test": "npm run lint && jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
