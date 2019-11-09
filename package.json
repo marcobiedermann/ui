@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@storybook/addon-knobs": "^3.4.10",
-    "@storybook/addon-options": "^3.4.10",
+    "@storybook/addon-options": "^5.2.6",
     "@storybook/react": "^3.4.10",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
