@@ -1,9 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import '../table.css';
 
-storiesOf('Table', module).add('default', () => (
+export default {
+  title: 'Table',
+};
+
+export const Default = () => (
   <table>
     <thead>
       <tr>
@@ -20,4 +23,4 @@ storiesOf('Table', module).add('default', () => (
       </tr>
     </tbody>
   </table>
-));
+);

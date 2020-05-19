@@ -1,9 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
+import { text } from '@storybook/addon-knobs';
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs';
 import Header from '../react/Header';
 
-storiesOf('Header', module)
-  .addDecorator(withKnobs)
-  .add('default', () => <Header>{text('Content', 'Header')}</Header>);
+export default {
+  component: Header,
+  title: 'Header',
+};
+
+export const Default = () => <Header>{text('Content', 'Header')}</Header>;

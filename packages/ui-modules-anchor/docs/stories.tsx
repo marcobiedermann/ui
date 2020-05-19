@@ -1,9 +1,10 @@
 /* eslint-disable import/no-extraneous-dependencies */
+import { text } from '@storybook/addon-knobs';
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs';
 import '../anchor.css';
 
-storiesOf('Anchor', module)
-  .addDecorator(withKnobs)
-  .add('default', () => <a href="/ui">{text('Content', 'Anchor')}</a>);
+export default {
+  title: 'Anchor',
+};
+
+export const Default = () => <a href="/ui">{text('Content', 'Anchor')}</a>;
