@@ -1,6 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Grid, { GridRow, GridColumn } from '.';
+import Grid from '.';
+
+const { Column, Row } = Grid;
 
 describe('Grid component', () => {
   const GRID_COLUMNS = 12;
@@ -16,10 +18,10 @@ describe('Grid component', () => {
       const tree = renderer
         .create(
           <Grid>
-            <GridRow>
-              <GridColumn span={i}>Column {i}</GridColumn>
-              <GridColumn span={GRID_COLUMNS - i}>Column {GRID_COLUMNS - i}</GridColumn>
-            </GridRow>
+            <Row>
+              <Column span={i}>Column {i}</Column>
+              <Column span={GRID_COLUMNS - i}>Column {GRID_COLUMNS - i}</Column>
+            </Row>
           </Grid>,
         )
         .toJSON();
