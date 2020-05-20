@@ -10,15 +10,13 @@ exports[`Grid component renders column span 1 correctly 1`] = `
     <div
       className="grid__column grid__column--1"
     >
-      Column
-       
+      Column 
       1
     </div>
     <div
       className="grid__column grid__column--11"
     >
-      Column
-       
+      Column 
       11
     </div>
   </div>
@@ -35,15 +33,13 @@ exports[`Grid component renders column span 2 correctly 1`] = `
     <div
       className="grid__column grid__column--2"
     >
-      Column
-       
+      Column 
       2
     </div>
     <div
       className="grid__column grid__column--10"
     >
-      Column
-       
+      Column 
       10
     </div>
   </div>
@@ -60,15 +56,13 @@ exports[`Grid component renders column span 3 correctly 1`] = `
     <div
       className="grid__column grid__column--3"
     >
-      Column
-       
+      Column 
       3
     </div>
     <div
       className="grid__column grid__column--9"
     >
-      Column
-       
+      Column 
       9
     </div>
   </div>
@@ -85,15 +79,13 @@ exports[`Grid component renders column span 4 correctly 1`] = `
     <div
       className="grid__column grid__column--4"
     >
-      Column
-       
+      Column 
       4
     </div>
     <div
       className="grid__column grid__column--8"
     >
-      Column
-       
+      Column 
       8
     </div>
   </div>
@@ -110,15 +102,13 @@ exports[`Grid component renders column span 5 correctly 1`] = `
     <div
       className="grid__column grid__column--5"
     >
-      Column
-       
+      Column 
       5
     </div>
     <div
       className="grid__column grid__column--7"
     >
-      Column
-       
+      Column 
       7
     </div>
   </div>
@@ -135,15 +125,13 @@ exports[`Grid component renders column span 6 correctly 1`] = `
     <div
       className="grid__column grid__column--6"
     >
-      Column
-       
+      Column 
       6
     </div>
     <div
       className="grid__column grid__column--6"
     >
-      Column
-       
+      Column 
       6
     </div>
   </div>
@@ -160,15 +148,13 @@ exports[`Grid component renders column span 7 correctly 1`] = `
     <div
       className="grid__column grid__column--7"
     >
-      Column
-       
+      Column 
       7
     </div>
     <div
       className="grid__column grid__column--5"
     >
-      Column
-       
+      Column 
       5
     </div>
   </div>
@@ -185,15 +171,13 @@ exports[`Grid component renders column span 8 correctly 1`] = `
     <div
       className="grid__column grid__column--8"
     >
-      Column
-       
+      Column 
       8
     </div>
     <div
       className="grid__column grid__column--4"
     >
-      Column
-       
+      Column 
       4
     </div>
   </div>
@@ -210,15 +194,13 @@ exports[`Grid component renders column span 9 correctly 1`] = `
     <div
       className="grid__column grid__column--9"
     >
-      Column
-       
+      Column 
       9
     </div>
     <div
       className="grid__column grid__column--3"
     >
-      Column
-       
+      Column 
       3
     </div>
   </div>
@@ -235,15 +217,13 @@ exports[`Grid component renders column span 10 correctly 1`] = `
     <div
       className="grid__column grid__column--10"
     >
-      Column
-       
+      Column 
       10
     </div>
     <div
       className="grid__column grid__column--2"
     >
-      Column
-       
+      Column 
       2
     </div>
   </div>
@@ -260,15 +240,13 @@ exports[`Grid component renders column span 11 correctly 1`] = `
     <div
       className="grid__column grid__column--11"
     >
-      Column
-       
+      Column 
       11
     </div>
     <div
       className="grid__column grid__column--1"
     >
-      Column
-       
+      Column 
       1
     </div>
   </div>

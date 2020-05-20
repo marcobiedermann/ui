@@ -13,7 +13,7 @@ exports[`Embed component renders aspect ratio correctly 1`] = `
 
 exports[`Embed component renders correctly 1`] = `
 <div
-  className="embed"
+  className="embed embed--16-9"
 >
   <iframe
     src="/"
