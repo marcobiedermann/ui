@@ -1,0 +1,25 @@
+{
+  "name": "@marcobiedermann/ui-utilities-seo",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-utilities-seo",
+  "keywords": [
+    "css",
+    "seo",
+    "design-system",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.0.0"
+  }
+}
