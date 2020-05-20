@@ -1,9 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { select, text } from '@storybook/addon-knobs';
 import React from 'react';
-import Media from '../react';
-
-const { Body, Object } = Media;
+import Media, { Body, Object } from '../react';
 
 export default {
   component: Media,
@@ -16,8 +14,8 @@ export const Default = () => (
       direction={select(
         'Direction',
         {
-          left: 'Left',
-          right: 'Right',
+          left: 'left',
+          right: 'right',
         },
         'left',
       )}

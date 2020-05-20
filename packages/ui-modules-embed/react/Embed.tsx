@@ -6,7 +6,7 @@ export interface EmbedProps {
   aspectRatio?: '4-3' | '16-9';
 }
 
-export const Embed: FC = (props) => {
+export const Embed: FC<EmbedProps> = (props) => {
   const { aspectRatio = '16-9', ...otherProps } = props;
 
   return (

@@ -1,8 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Grid from '.';
-
-const { Column, Row } = Grid;
+import Grid, { Column, Row } from '.';
 
 describe('Grid component', () => {
   const GRID_COLUMNS = 12;

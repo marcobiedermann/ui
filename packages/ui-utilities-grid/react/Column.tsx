@@ -8,12 +8,15 @@ export interface ColumnProps {
 
 export const Column: FC<ColumnProps> = (props) => {
   const { span, ...otherProps } = props;
-  <div
-    className={classNames(styles.grid__column, {
-      [styles[`grid__column--${span}`]]: span,
-    })}
-    {...otherProps}
-  />;
+
+  return (
+    <div
+      className={classNames(styles.grid__column, {
+        [styles[`grid__column--${span}`]]: span,
+      })}
+      {...otherProps}
+    />
+  );
 };
 
 export default Column;

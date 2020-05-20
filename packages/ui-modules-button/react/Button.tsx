@@ -3,6 +3,7 @@ import React, { FC } from 'react';
 import styles from '../button.css';
 
 export interface ButtonProps {
+  disabled?: boolean;
   type?: 'button' | 'reset' | 'submit';
 }
 

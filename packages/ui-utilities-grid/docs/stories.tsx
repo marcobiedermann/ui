@@ -1,9 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { number, text } from '@storybook/addon-knobs';
 import React from 'react';
-import Grid from '../react';
-
-const { Column, Row } = Grid;
+import Grid, { Column, Row } from '../react';
 
 export default {
   component: Grid,

@@ -11,11 +11,15 @@ export default {
 export const Default = () => (
   <Button
     disabled={boolean('Disabled', false)}
-    type={select('Type', {
-      button: 'button',
-      reset: 'reset',
-      submit: 'submit',
-    })}
+    type={select(
+      'Type',
+      {
+        button: 'button',
+        reset: 'reset',
+        submit: 'submit',
+      },
+      'button',
+    )}
   >
     text('Content', 'Button')
   </Button>

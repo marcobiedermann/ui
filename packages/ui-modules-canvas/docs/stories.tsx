@@ -7,4 +7,4 @@ export default {
   title: 'Canvas',
 };
 
-export const Default = () => <canvas width={number('width', '800')} height={number('height', '600')} />;
+export const Default = () => <canvas width={number('width', 800)} height={number('height', 600)} />;
