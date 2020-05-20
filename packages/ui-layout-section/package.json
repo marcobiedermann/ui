@@ -1,0 +1,22 @@
+{
+  "name": "@marcobiedermann/ui-layout-section",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-section",
+  "keywords": [
+    "css",
+    "design-system",
+    "layout",
+    "section",
+    "style",
+    "ui"
+  ],
+  "author": "Marco Biedermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/ui/issues"
+  },
+  "dependencies": {
+    "react": "^16.4.1"
+  }
+}
