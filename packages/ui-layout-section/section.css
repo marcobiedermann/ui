@@ -1,0 +1,8 @@
+:root {
+  --section-padding-vertical: 1em;
+}
+
+.section {
+  padding-bottom: var(--section-padding-vertical);
+  padding-top: var(--section-padding-vertical);
+}

@@ -2,6 +2,7 @@
   "name": "@marcobiedermann/ui-layout-section",
   "version": "1.0.0",
   "description": "",
+  "style": "section.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-layout-section",
   "keywords": [
     "css",
