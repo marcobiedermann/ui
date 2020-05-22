@@ -1,6 +1,6 @@
 module.exports = {
   stories: ['../packages/**/stories.tsx'],
-  addons: ['@storybook/addon-knobs/register'],
+  addons: ['@storybook/addon-knobs/register', '@storybook/addon-viewport/register'],
   webpackFinal: (config, { configType }) => {
     const ruleCssIndex = config.module.rules.findIndex((rule) => rule.test.toString() === '/\\.css$/');
 
