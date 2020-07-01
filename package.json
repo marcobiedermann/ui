@@ -50,7 +50,7 @@
     "@types/react-test-renderer": "^16.9.2",
     "@types/storybook__addon-info": "^5.2.1",
     "babel-loader": "^8.1.0",
-    "chromatic": "^4.0.3",
+    "chromatic": "^5.0.0",
     "eslint": "^7.1.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
