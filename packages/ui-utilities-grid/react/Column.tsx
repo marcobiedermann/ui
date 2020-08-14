@@ -1,8 +1,9 @@
 import classNames from 'classnames';
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import styles from '../grid.css';
 
 export interface ColumnProps {
+  children: ReactNode;
   span: number;
 }
 

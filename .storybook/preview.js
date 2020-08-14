@@ -1,26 +1,21 @@
-import { withA11y } from '@storybook/addon-a11y';
-import { withInfo } from '@storybook/addon-info';
-import { withKnobs } from '@storybook/addon-knobs';
-import { addDecorator, addParameters } from '@storybook/react';
+import '../packages/ui/ui.css';
 
-addParameters({
-  backgrounds: [
-    {
-      name: 'light',
-      value: '#fff',
-      default: true,
-    },
-    {
-      name: 'neutral',
-      value: '#808080',
-    },
-    {
-      name: 'dark',
-      value: '#000',
-    },
-  ],
-});
-
-addDecorator(withA11y);
-addDecorator(withInfo);
-addDecorator(withKnobs);
+export const parameters = {
+  backgrounds: {
+    default: 'light',
+    values: [
+      {
+        name: 'light',
+        value: '#fff',
+      },
+      {
+        name: 'neutral',
+        value: '#808080',
+      },
+      {
+        name: 'dark',
+        value: '#000',
+      },
+    ],
+  },
+};

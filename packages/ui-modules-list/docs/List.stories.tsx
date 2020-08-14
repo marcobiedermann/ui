@@ -1,10 +1,10 @@
-/* eslint-disable import/no-extraneous-dependencies */
+import { Meta } from '@storybook/react';
 import React from 'react';
 import '../list.css';
 
 export default {
   title: 'List',
-};
+} as Meta;
 
 export const DefinitionList = () => (
   <dl>

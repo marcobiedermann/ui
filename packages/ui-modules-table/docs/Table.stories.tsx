@@ -1,10 +1,10 @@
-/* eslint-disable import/no-extraneous-dependencies */
+import { Meta } from '@storybook/react';
 import React from 'react';
 import '../table.css';
 
 export default {
   title: 'Table',
-};
+} as Meta;
 
 export const Default = () => (
   <table>
