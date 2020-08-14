@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "build-storybook": "build-storybook",
+    "chromatic": "chromatic",
     "check": "tsc --noEmit",
     "fix:css": "npm run lint:css -- --fix",
     "fix:js": "npm run lint:js -- --fix",
