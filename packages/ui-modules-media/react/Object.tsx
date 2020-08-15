@@ -6,7 +6,7 @@ export interface ObjectProps {
   direction?: 'left' | 'right';
 }
 
-export const Object: FC<ObjectProps> = (props) => {
+const Object: FC<ObjectProps> = (props: ObjectProps) => {
   const { direction = 'left', ...otherProps } = props;
 
   return (

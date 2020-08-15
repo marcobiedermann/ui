@@ -7,7 +7,7 @@ export interface ColumnProps {
   span: number;
 }
 
-export const Column: FC<ColumnProps> = (props) => {
+const Column: FC<ColumnProps> = (props: ColumnProps) => {
   const { span, ...otherProps } = props;
 
   return (

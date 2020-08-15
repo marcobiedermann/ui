@@ -8,7 +8,7 @@ export interface ButtonProps {
   type?: 'button' | 'reset' | 'submit';
 }
 
-const Button: FC<ButtonProps> = (props) => {
+const Button: FC<ButtonProps> = (props: ButtonProps) => {
   const { type = 'button', ...otherProps } = props;
 
   return <button className={classNames(styles.button)} type={type} {...otherProps} />;

@@ -14,7 +14,7 @@ export interface SEOProps {
   title: string;
 }
 
-export const SEO: FC<SEOProps> = (props) => {
+const SEO: FC<SEOProps> = (props: SEOProps) => {
   const { author, description, lang = 'en', meta = [], title, ...otherProps } = props;
 
   return (
