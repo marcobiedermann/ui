@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "build": "lerna run build",
     "build-storybook": "build-storybook",
     "chromatic": "chromatic",
     "check": "tsc --noEmit",
