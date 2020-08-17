@@ -2,11 +2,11 @@ import classNames from 'classnames';
 import React, { FC } from 'react';
 import styles from '../media.css';
 
-export interface ObjectProps {
+export interface MediaObjectProps {
   direction?: 'left' | 'right';
 }
 
-const Object: FC<ObjectProps> = (props: ObjectProps) => {
+const MediaObject: FC<MediaObjectProps> = (props: MediaObjectProps) => {
   const { direction = 'left', ...otherProps } = props;
 
   return (
@@ -19,4 +19,4 @@ const Object: FC<ObjectProps> = (props: ObjectProps) => {
   );
 };
 
-export default Object;
+export default MediaObject;

@@ -1,13 +1,13 @@
 import { Meta, Story } from '@storybook/react';
 import React from 'react';
-import { Body } from '../react';
+import { MediaBody } from '../react';
 
 export default {
-  component: Body,
-  title: 'Media/Body',
+  component: MediaBody,
+  title: 'Media/MediaBody',
 } as Meta;
 
-const Template: Story = (args) => <Body {...args} />;
+const Template: Story = (args) => <MediaBody {...args} />;
 
 export const Default = Template.bind({});
 

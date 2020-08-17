@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 import React from 'react';
-import Media, { Body, Object } from '../react';
+import Media, { MediaBody, MediaObject } from '../react';
 
 export default {
   component: Media,
@@ -9,8 +9,10 @@ export default {
 
 const Template: Story = (args) => (
   <Media>
-    <Object direction={args.direction}>Object</Object>
-    <Body>{args.children}</Body>
+    <MediaObject direction={args.direction}>
+      <img src="https://via.placeholder.com/48x48" alt="Media Object" />
+    </MediaObject>
+    <MediaBody>{args.children}</MediaBody>
   </Media>
 );
 

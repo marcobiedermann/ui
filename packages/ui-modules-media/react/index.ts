@@ -1,6 +1,6 @@
-import Body from './Body';
 import Media from './Media';
-import Object from './Object';
+import MediaBody from './MediaBody';
+import MediaObject from './MediaObject';
 
 export default Media;
-export { Body, Object };
+export { MediaBody, MediaObject };
