@@ -7,11 +7,11 @@ export interface MediaObjectProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const MediaObject: FC<MediaObjectProps> = (props: MediaObjectProps) => {
-  const { direction = 'left', ...otherProps } = props;
+  const { className, direction = 'left', ...otherProps } = props;
 
   return (
     <div
-      className={classNames(styles.media__object, {
+      className={classNames(className, styles.media__object, {
         [styles[`media__object--${direction}`]]: direction,
       })}
       {...otherProps}

@@ -7,11 +7,11 @@ export interface ColumnProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const Column: FC<ColumnProps> = (props: ColumnProps) => {
-  const { span, ...otherProps } = props;
+  const { className, span, ...otherProps } = props;
 
   return (
     <div
-      className={classNames(styles.grid__column, {
+      className={classNames(className, styles.grid__column, {
         [styles[`grid__column--${span}`]]: span,
       })}
       {...otherProps}

@@ -1,10 +1,13 @@
 import React, { FC, HTMLAttributes } from 'react';
+import classNames from 'classnames';
 import styles from '../footer.css';
 
 export interface FooterProps extends HTMLAttributes<HTMLDivElement> {}
 
 const Footer: FC<FooterProps> = (props) => {
-  return <footer className={styles.footer} role="contentinfo" {...props} />;
+  const { className, ...otherProps } = props;
+
+  return <footer className={classNames(className, styles.footer)} role="contentinfo" {...otherProps} />;
 };
 
 export default Footer;

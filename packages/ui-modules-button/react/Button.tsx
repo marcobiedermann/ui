@@ -5,7 +5,9 @@ import styles from '../button.css';
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
 
 const Button: FC<ButtonProps> = (props) => {
-  return <button className={classNames(styles.button)} {...props} />;
+  const { className, ...otherProps } = props;
+
+  return <button className={classNames(className, styles.button)} {...otherProps} />;
 };
 
 export default Button;
