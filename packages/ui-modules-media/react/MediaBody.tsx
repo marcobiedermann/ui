@@ -1,8 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../media.css';
 
-const Body: FC = (props) => {
+export interface BodyProps extends HTMLAttributes<HTMLDivElement> {}
+
+const MediaBody: FC<BodyProps> = (props) => {
   return <div className={styles.media__body} {...props} />;
 };
 
-export default Body;
+export default MediaBody;

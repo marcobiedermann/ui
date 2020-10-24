@@ -1,7 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../footer.css';
 
-const Footer: FC = (props) => {
+export interface FooterProps extends HTMLAttributes<HTMLDivElement> {}
+
+const Footer: FC<FooterProps> = (props) => {
   return <footer className={styles.footer} role="contentinfo" {...props} />;
 };
 

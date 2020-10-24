@@ -1,7 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../grid.css';
 
-const Grid: FC = (props) => {
+export interface GridProps extends HTMLAttributes<HTMLDivElement> {}
+
+const Grid: FC<GridProps> = (props) => {
   return <div className={styles.grid} {...props} />;
 };
 

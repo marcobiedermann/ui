@@ -1,7 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../header.css';
 
-const Header: FC = (props) => {
+export interface HeaderProps extends HTMLAttributes<HTMLDivElement> {}
+
+const Header: FC<HeaderProps> = (props) => {
   return <header className={styles.header} role="banner" {...props} />;
 };
 

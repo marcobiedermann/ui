@@ -1,7 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, SelectHTMLAttributes } from 'react';
 import styles from '../section.css';
 
-const Section: FC = (props) => {
+export interface SectionProps extends SelectHTMLAttributes<HTMLSelectElement> {}
+
+const Section: FC<SectionProps> = (props) => {
   return <section className={styles.section} {...props} />;
 };
 

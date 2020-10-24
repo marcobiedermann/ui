@@ -1,8 +1,8 @@
 import classNames from 'classnames';
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../media.css';
 
-export interface MediaObjectProps {
+export interface MediaObjectProps extends HTMLAttributes<HTMLDivElement> {
   direction?: 'left' | 'right';
 }
 

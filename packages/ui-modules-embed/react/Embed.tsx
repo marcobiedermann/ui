@@ -1,8 +1,8 @@
 import classNames from 'classnames';
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import styles from '../embed.css';
 
-export interface EmbedProps {
+export interface EmbedProps extends HTMLAttributes<HTMLDivElement> {
   aspectRatio?: '4-3' | '16-9';
 }
 

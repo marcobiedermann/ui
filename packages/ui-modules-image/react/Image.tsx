@@ -1,12 +1,7 @@
-import React, { FC } from 'react';
+import React, { FC, ImgHTMLAttributes } from 'react';
 import '../image.css';
 
-export interface ImageProps {
-  alt: string;
-  height: number;
-  src: string;
-  width: number;
-}
+export interface ImageProps extends ImgHTMLAttributes<HTMLImageElement> {}
 
 export const Image: FC<ImageProps> = (props) => {
   return <img {...props} />;
