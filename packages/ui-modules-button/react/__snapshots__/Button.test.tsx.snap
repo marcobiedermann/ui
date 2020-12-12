@@ -3,7 +3,6 @@
 exports[`Button component renders correctly 1`] = `
 <button
   className="button"
-  type="button"
 >
   Button
 </button>
@@ -13,7 +12,6 @@ exports[`Button component renders disabled correctly 1`] = `
 <button
   className="button"
   disabled={true}
-  type="button"
 >
   Button
 </button>
