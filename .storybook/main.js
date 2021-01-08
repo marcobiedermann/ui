@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   stories: ['../packages/**/*.stories.mdx', '../packages/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-essentials'],
   webpackFinal: (config, { configType }) => {
@@ -17,3 +17,5 @@ module.exports = {
     return config;
   },
 };
+
+module.exports = config;

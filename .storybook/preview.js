@@ -1,4 +1,5 @@
-import '../packages/ui/ui.css';
+import '../packages/ui-layout-base/base.css';
+import '../packages/ui-themes-default/theme.css';
 
 export const parameters = {
   backgrounds: {

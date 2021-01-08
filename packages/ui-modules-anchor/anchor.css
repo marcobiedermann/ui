@@ -1,5 +1,3 @@
-@import '@marcobiedermann/ui-themes-default';
-
 :root {
   --anchor-color: var(--color-primary);
   --anchor-text-decoration: none;
