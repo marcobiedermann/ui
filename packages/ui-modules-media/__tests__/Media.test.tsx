@@ -1,14 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Media, { MediaBody, MediaObject } from '.';
+import Media from '..';
 
 describe('Media component', () => {
   it('renders left correctly', () => {
     const tree = renderer
       .create(
         <Media>
-          <MediaObject>Media Object</MediaObject>
-          <MediaBody>Media Body</MediaBody>
+          <Media.Object>Media Object</Media.Object>
+          <Media.Body>Media Body</Media.Body>
         </Media>,
       )
       .toJSON();
@@ -20,8 +20,8 @@ describe('Media component', () => {
     const tree = renderer
       .create(
         <Media>
-          <MediaObject direction="right">Media Object</MediaObject>
-          <MediaBody>Media Body</MediaBody>
+          <Media.Object direction="right">Media Object</Media.Object>
+          <Media.Body>Media Body</Media.Body>
         </Media>,
       )
       .toJSON();

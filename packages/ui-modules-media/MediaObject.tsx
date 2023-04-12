@@ -1,12 +1,14 @@
 import classNames from 'classnames';
-import React, { FC, HTMLAttributes } from 'react';
+import React, { ReactNode } from 'react';
 import styles from '../media.css';
 
-export interface MediaObjectProps extends HTMLAttributes<HTMLDivElement> {
+interface MediaObjectProps {
   direction?: 'left' | 'right';
+  children: ReactNode;
+  className?: string;
 }
 
-const MediaObject: FC<MediaObjectProps> = (props: MediaObjectProps) => {
+function MediaObject(props: MediaObjectProps): JSX.Element {
   const { className, direction = 'left', ...otherProps } = props;
 
   return (
@@ -17,6 +19,7 @@ const MediaObject: FC<MediaObjectProps> = (props: MediaObjectProps) => {
       {...otherProps}
     />
   );
-};
+}
 
+export type { MediaObjectProps };
 export default MediaObject;
