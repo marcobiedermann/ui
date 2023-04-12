@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.com/marcobiedermann/ui.svg)](https://travis-ci.com/marcobiedermann/ui)
 [![dependencies Status](https://david-dm.org/marcobiedermann/ui/status.svg)](https://david-dm.org/marcobiedermann/ui)
 [![devDependencies Status](https://david-dm.org/marcobiedermann/ui/dev-status.svg)](https://david-dm.org/marcobiedermann/ui?type=dev)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a63d0bca-710f-49c5-9d1e-a6e74725e959/deploy-status)](https://app.netlify.com/sites/marcobiedermann-ui/deploys)
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://marcobiedermann-ui.netlify.app/)
 
@@ -67,10 +66,6 @@ Run JavaScript linting.
 ```sh
 npm run lint:js
 ```
-
-## Publish
-
-Publish a package using Lerna. You will be prompted with the package name and a version under which you want to release your changes.
 
 ```sh
 npm run publish
