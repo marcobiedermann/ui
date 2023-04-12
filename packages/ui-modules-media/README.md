@@ -29,23 +29,25 @@ npm install @marcobiedermann/ui-modules-media
 @import '@marcobiedermann/ui-modules-media';
 ```
 
-### React / React Native
+### React
 
 ```jsx
-import Media, { MediaObject, MediaBody } from '@marcobiedermann/ui-modules-media/react';
+import Media from '@marcobiedermann/ui-modules-media';
 
-const Component = () => (
-  <Media>
-    <MediaObject>
-      <img src="path/to/image" />
-    </MediaObject>
-    <MediaBody>Body</MediaBody>
-  </Media>
-);
+function App() {
+  return (
+    <Media>
+      <Media.Object>
+        <img src="path/to/image" />
+      </Media.Object>
+      <Media.Body>Body</Media.Body>
+    </Media>
+  );
+}
 ```
 
 ## License
 
 [MIT License](../../LICENSE)
 
-Copyright (c) 2018 Marco Biedermann
+Copyright (c) Marco Biedermann

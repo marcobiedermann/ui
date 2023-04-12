@@ -2,6 +2,7 @@
   "name": "@marcobiedermann/ui-modules-media",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "style": "media.css",
   "repository": "https://github.com/marcobiedermann/ui/tree/master/packages/ui-modules-list",
   "keywords": [
